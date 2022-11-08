@@ -1,0 +1,20 @@
+{
+    "products":[
+        {
+            "id":"1",
+            "title":"Printed Men Hooded Neck Red T-Shirt",
+            "category":"Cloth",
+            "type":"Men",
+            "price":269,
+            "strike-off":999,
+            "images":["https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/4/r/1/xl-crd-try-this-original-imagype6cvwzcnwn-bb.jpeg?q=70",
+                       "https://rukminim1.flixcart.com/image/832/832/klmmrgw0/t-shirt/q/u/g/xl-crd-try-this-original-imagype6huppvsr7.jpeg?q=70"],
+            "rating":"4.2/5",
+            "color":"Red",
+            "size":["S","L","M","XL"],
+            "description":["Type : Hooded Neck", "Sleeve : Full Sleeve","Fit : Slim","Fabric : Cotton Blend","Pack of : 1","Style Code : CRD",
+                     "Neck Type : Hooded Neck","Ideal For : Men", "Pattern : Printed","Suitable For : Western Wear", "Fabric : Care","Machine wash as per tag"],
+            "offer":["New Arrival","Trending"]         
+        }
+    ]
+}

@@ -5,10 +5,9 @@ const loginRequest=()=>{
     }
 }
 
-const loginSuccess=(payload)=>{
+const loginSuccess=()=>{
     return{
         type:types.Login_Success,
-        payload
     }
 }
 
@@ -18,6 +17,16 @@ const loginFailure=()=>{
     }
 }
 
-export {loginFailure,loginRequest,loginSuccess}
+
+
+
+const SignUpSuccess=(payload)=>{
+    return{
+        type:types.SingnUp_Success,
+        payload
+    }
+}
+
+export {loginFailure,loginRequest,loginSuccess,SignUpSuccess}
 
 

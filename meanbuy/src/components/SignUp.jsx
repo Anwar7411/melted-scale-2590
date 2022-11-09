@@ -1,20 +1,21 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from "react-redux"
-import { loginFailure, loginRequest, loginSuccess } from "../redux/authreducer/action"
-import { Navigate } from "react-router-dom"
+import { SignUpSuccess } from "../redux/authreducer/action"
+import { Navigate ,useNavigate} from "react-router-dom"
 const SignUp = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [ConfirmPassword,setConfirmPassword]=useState("");
     const dispatch = useDispatch();
+    const navigate=useNavigate();
     const handleSubmit = (e) => {
         e.preventDefault();
         if (password==ConfirmPassword){
-            dispatch(loginRequest())
-            dispatch(loginSuccess(email))
+            dispatch(SignUpSuccess({email:email,password:password}))
             setEmail("");
             setPassword("");
-            setConfirmPassword("")
+            setConfirmPassword("");
+            navigate("/Login")
         }else{
             alert("Enter All Details");
             setEmail("");

@@ -1,20 +1,17 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import mainRoutes from "./pages/mainRoutes";
-import Footer from "./components/Footer";
-import Login from "./components/Login";
-import Checkout from "./pages/checkoutPage/Checkout";
+import './App.css';
+import Navbar from './components/Navbar';
+import mainRoutes from './pages/mainRoutes';
+import Footer from './components/Footer';
+
 
 function App() {
-     return (
-          <div className="App">
-               {/* <Navbar />
+  return (
+    <div className="App">
+      <Navbar />
       <mainRoutes />
-      <Footer /> */}
-               {/* <Login /> */}
-               <Checkout />
-          </div>
-     );
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

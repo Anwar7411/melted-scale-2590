@@ -1,10 +1,11 @@
 import * as types from "./actionTypes"
+import {authgetData,authsaveData} from "../utilies/authLocalData"
 
 const initialstate={
-    isAuth:false,
+    isAuth:authgetData("isAuth") || false,
     isLoading:false,
     isError:false,
-    userEmail:"",
+    userDetails:authgetData("user") || {email:"",password:""},
 }
 const reducer=(state=initialstate,action)=>{
     const {type,payload}=action
@@ -13,18 +14,29 @@ switch(type){
                               ...state,
                               isLoading:true,
                               }
-    case types.Login_Success:return{
+    case types.Login_Success: let newAuth=true;
+                              authsaveData("isAuth",newAuth)
+                              return{
                                 ...state,
                                 isLoading:false,
                                 isAuth:true,
-                                userEmail:payload
                                 } 
     case types.Login_Failue:return{
                                     ...state,
                                     isLoading:false,
                                     isAuth:false,
                                     isError:true,
-                                    }   
+                                    } 
+    case types.SingnUp_Success:
+                              let newUser=payload;
+                              authsaveData("user",newUser)
+                              return{
+                                ...state,
+                                isLoading:false,
+                                isAuth:false,
+                                userDetails:newUser
+                                }                             
+
                      default:return state                                      
 }
 }

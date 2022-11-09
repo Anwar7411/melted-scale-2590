@@ -9,29 +9,18 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 
-
-
 const CartDetailCard = () => {
      return (
-          <Box border="3px solid black" textAlign="left" padding="10px 50px">
+          <Box textAlign="left" padding="10px 50px">
                <Grid templateColumns="repeat(2, 1fr)" gap={2} w="full">
                     {/* <Text as={"b"}>Delivery Address</Text> */}
 
-                    <GridItem
-                         pl="10px"
-                         mt={10}
-                         border="1px solid red"
-                         colSpan="2"
-                    >
-                         {/* <Box w="550px" mt={"50px"} border="1px solid #ccc"> */}
-                         {/* <Box style={{ textAlign: "left" }}> */}
+                    <GridItem pl="10px" mt={10} colSpan="2">
                          <Text fontSize="15" as="b">
                               1 x Military Fashion Watch - Black
                          </Text>
                          <Text mt="5px"> Dilivery Date: December 7, 2022</Text>
                          <Text mt="5px">Price: Rs-3,499.00 </Text>
-                         {/* </Box> */}
-                         {/* </Box> */}
                     </GridItem>
                     <GridItem mt="3" colSpan={{ base: 2, md: 1 }}>
                          <Box borderBottom={"1px solid black"} w="550px">

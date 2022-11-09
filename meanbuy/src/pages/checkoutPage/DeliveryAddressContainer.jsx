@@ -43,7 +43,6 @@ const DeliveryAddressContainer = () => {
           city,
           pincode,
      } = formData;
-     console.log(formData);
      const handleSubmit = () => {
           console.log(formData);
      };
@@ -51,7 +50,6 @@ const DeliveryAddressContainer = () => {
      return (
           <div
                style={{
-                    border: "3px solid black",
                     textAlign: "left",
                     padding: "10px 50px",
                }}
@@ -76,7 +74,7 @@ const DeliveryAddressContainer = () => {
                               Sign Up
                          </Link>
                     </Text>
-                    <FormControl border={"1px solid teal"}>
+                    <FormControl>
                          <FormLabel fontSize={"sm"} mt="5">
                               Email address
                          </FormLabel>

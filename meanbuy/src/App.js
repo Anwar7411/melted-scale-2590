@@ -7,10 +7,10 @@ import { ProductCard } from "./components/ProductCard";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      {/* <MainRoutes /> */}
-      <ProductCard />
-      {/* <Footer /> */}
+      <Navbar />
+      <MainRoutes />
+
+      <Footer />
     </div>
   );
 }

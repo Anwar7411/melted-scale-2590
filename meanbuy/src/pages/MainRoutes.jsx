@@ -7,7 +7,7 @@ const MainRoutes = () => {
     <Routes >
         <Route path='/login' element={<Login />}></Route>
         <Route path='/SignUp' element={<SignUp />}></Route>
-        <Route path="*" element={{}}/>
+        {/* <Route path="*" element={{}}/> */}
     </Routes>
   )
 }

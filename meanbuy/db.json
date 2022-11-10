@@ -1,5 +1,5 @@
 {
-    "products":[
+    "products": [
         {
             "id":"1",
             "title":"Printed Men Hooded Neck Red T-Shirt",
@@ -509,6 +509,7 @@
             "description":["Type : Hooded Neck", "Sleeve : Full Sleeve","Fit : Slim","Fabric : Cotton Blend","Pack of : 1","Style Code : CRD",
                      "Neck Type : Hooded Neck","Ideal For : Men", "Pattern : Printed","Suitable For : Western Wear", "Fabric : Care","Machine wash as per tag"],
             "offer":["New Arrival","Best Deal"]         
+           
         }
     ]
 }

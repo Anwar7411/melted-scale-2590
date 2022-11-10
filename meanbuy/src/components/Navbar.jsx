@@ -1,14 +1,16 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import { BurgerMenu } from './BurgerMenu';
 import { Grid,InputRightElement ,Input,InputGroup ,GridItem} from "@chakra-ui/react"; 
 import "./Navbar.css"
+import myLogo from "../Assets/logo.jpeg"
 import {TbSearch} from "react-icons/tb"
 const Navbar = () => {
   return (
     <div>
       <div className='main'>
-      <Grid className='topnav' templateColumns="repeat(3,1fr)" justifyContent="space-between">
-          <div className='logo'>logo</div>
+      <Grid className='topnav' templateColumns="repeat(4,1fr)" justifyContent="space-between">
+          <div className='logo'><img src={myLogo}  alt="logo" /></div>
           <div>
           <InputGroup >
             <InputRightElement pointerEvents='none' children={<TbSearch color='gray.300' />}/>
@@ -25,6 +27,7 @@ const Navbar = () => {
                <GridItem colSpan={2} >Welcome Guest</GridItem>
 
             </Grid>
+            <div><BurgerMenu/></div>
       </Grid>
       
         <Grid className='botnav' templateColumns="repeat(5,100px)">

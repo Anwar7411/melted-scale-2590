@@ -1,0 +1,23 @@
+import React from 'react'
+import {Route,Routes} from "react-router-dom"
+import Home from "./Home"
+import FlashSale from './FlashSale'
+import BestDeal from './BestDeal'
+import Shop from './Shop'
+import Trending from './Trending'
+
+
+const MainRoutes = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/FlashSale" element={<FlashSale/>}/>
+      <Route path="/BestDeal" element={<BestDeal/>}/>
+      <Route path="/Shop" element={<Shop/>}/>
+      <Route path="/Trending" element={<Trending/>}/>
+
+    </Routes>
+  )
+}
+
+export default MainRoutes

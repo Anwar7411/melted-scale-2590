@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { stateList } from "../state";
+import { stateList } from "./state";
 
 const initialState = {
      fullName: "",

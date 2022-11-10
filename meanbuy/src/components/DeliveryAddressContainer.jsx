@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import PaymentDetails from "./PaymentDetails";
-import { stateList } from "../state";
+import { stateList } from "./state";
 const initState = {
      fullname: "",
      phone: "",

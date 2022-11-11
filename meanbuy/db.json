@@ -511,5 +511,55 @@
             "offer":["New Arrival","Best Deal"]         
            
         }
+    ],
+    "electronics": [
+        {
+            "id": "1",
+            "breadcrumbs": "Home",
+            "breadcrumbs 2": "Electronics",
+            "breadcrumbs 3": "Small Appliances",
+            "offmsrp": "-68%",
+            "top_image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjY1XC9QaW5rX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+            "image_1": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjYzXC9XaGl0ZV9uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6MTAwMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+            "image_2": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjYzXC9XaGl0ZV9uXzJfMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6MTAwMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+            "image_3": "data:image/png;base64,...",
+            "image_4": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjYzXC9XaGl0ZV9uXzRfNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6MTAwMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+            "title": "400mL Multifunctional Electric Squeezer Juicer",
+            "ratings": "/5",
+            "actual_rating": 3.7,
+            "actual_price": "7,999.00",
+            "retail_price": "24,999.00",
+            "discount": "UP TO 68% OFF",
+            "saveupto": "17,000.00",
+            "cod": "available on orders between 999 and 10,000",
+            "simpleinfo_popup": "https://www.meanbuy.com/shop/product/400mL_Multifunctional_Electric_Squeezer_Juicer#pp_popup1",
+            "Availability": "In Stock",
+            "delivery": "Guaranteed Delivery in 24 days",
+            "cod_availability": "COD Available",
+            "replacement": "10 DaysReplacement",
+            "warranty": "6 months Warranty",
+            "simplpay_amount": 2666.34,
+            "Product Description": [
+                "All of our slow juicer parts are made of high-quality ABS and AS materials, safe and harmless. With an electric juicer, you can serve delicious juice to you and your loved ones every day!",
+                "The juicer is composed of several components, all are removable, easy to separate, and clean. All components except the motor base are dishwasher safe and suitable for most fruits",
+                "The electric citrus juicer can be charged by USB-C so you can enjoy delicious juice anywhere with this cordless citrus juicer that can be used outdoors without worrying about running out of battery",
+                "The electric juicer is very compact and does not take up much space. The electric citrus juicer is easy to carry, you can use it at home or take it to a picnic",
+                "This electric orange squeezer uses a slow-speed system to extract juices and provide pure fruit flavor. Make your juice even better with our electric juicer!"
+            ],
+            "Product Features": [
+                "Material: AS + ABS",
+                "Maximum juicer speed: 18000 rpm",
+                "Power: 45W",
+                "Capacity: 240",
+                "Voltage: 7.4V",
+                "Juicer type: Squeezing Slow Juicer",
+                "Function: USB Rechargeable, LOW NOISE"
+            ],
+            "Shipping & Return Details": [
+                "Select the best price & delivery date and save the most. Have the best price all year round. No need to wait for sale and discount season. Get the best price and delivery directly from the factory. In general, a later Delivery Date means greater Savings!",
+                "Because we offer the lowest prices we cannot accept returns from Buyer's Remorse. If you're returning because of a faulty product, we'll get to work to get you a replacement product asap or a refund when out of stock.",
+                "* Disclaimer: Although we work very hard to get your order delivered on time, sometimes things happen that are outside of our control so your shipment might get delayed. When this happens you will be informed as soon as possible."
+            ]
+        }
     ]
 }

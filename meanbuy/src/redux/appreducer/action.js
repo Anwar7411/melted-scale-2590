@@ -13,11 +13,11 @@ const getElectronicsProductFailure = () => {
   };
 };
 
-export const getElectronicsProduct = () => (dispatch) => {
+export const getElectronicsProduct = (queryParams) => (dispatch) => {
   //   console.log("Inside electronics middleware");
   dispatch(getElectronicsProductRequest());
   axios
-    .get("http://localhost:8080/electronics")
+    .get("http://localhost:8080/electronics", queryParams)
     .then((res) => {
       dispatch({
         type: types.GET_ELECTRONICS_PRODUCT_SUCCESS,

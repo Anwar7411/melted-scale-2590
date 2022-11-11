@@ -13,27 +13,41 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
 } from "@chakra-ui/react";
-import { useLocation, useParams } from "react-router-dom";
+import { useLocation, useParams, useSearchParams } from "react-router-dom";
 import { ProductCard } from "../components/ProductCard";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getElectronicsProduct } from "../redux/appreducer/action";
-import { ChevronRightIcon } from "@chakra-ui/icons";
+import { ChevronRightIcon, ChevronDownIcon } from "@chakra-ui/icons";
+import { useState } from "react";
 
 export const Electronics = () => {
   const dispatch = useDispatch();
   const products = useSelector((store) => store.AppReducer.electronicsProduct);
   const location = useLocation();
-  console.log(location);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [sortBy, setSortBy] = useState(searchParams.get("sortBy") || "");
+
+  // console.log(location);
 
   useEffect(() => {
-    dispatch(getElectronicsProduct());
-  }, []);
+    const params = {};
+    sortBy && (params.sortBy = sortBy);
+    setSearchParams(params);
+  }, [searchParams, sortBy]);
+
+  useEffect(() => {
+    if (location || products.length === 0) {
+      const queryParams = {
+        params: {
+          _sort: searchParams.get("sortBy") && "actual_price",
+          _order: searchParams.get("sortBy"),
+        },
+      };
+      dispatch(getElectronicsProduct(queryParams));
+    }
+  }, [location.search]);
 
   return (
     <Box w="100%" border="1px solid red" p={2}>
@@ -65,17 +79,48 @@ export const Electronics = () => {
                   </Breadcrumb>
                 </Box>
                 <Spacer />
-                <Box border="1px solid green" p={2}>
-                  Sorting
+                <Box p={2} mr="16px">
+                  <Menu>
+                    <MenuButton px={4} border="1px solid #ccc" color="#455a64">
+                      WHAT'S NEW
+                      <ChevronDownIcon boxSize="32px" ml="12px" />
+                    </MenuButton>
+                    <MenuList
+                      border="1px solid #ccc"
+                      borderRadius="none"
+                      pos="relative"
+                      right="-50px"
+                    >
+                      <MenuItem color="#455a64">What's New</MenuItem>
+                      <MenuItem color="#455a64">Featured Items</MenuItem>
+                      <MenuItem color="#455a64">Trending Items</MenuItem>
+                      <MenuItem color="#455a64">Price</MenuItem>
+                      <MenuItem
+                        color="#455a64"
+                        pl="32px"
+                        onClick={() => setSortBy("desc")}
+                      >
+                        High To Low
+                      </MenuItem>
+                      <MenuItem
+                        color="#455a64"
+                        pl="32px"
+                        onClick={() => setSortBy("asc")}
+                      >
+                        Low To High
+                      </MenuItem>
+                    </MenuList>
+                  </Menu>
                 </Box>
               </Flex>
             </Box>
             <Box border="1px solid red" w="100%" p={2}>
               <Container border="1px solid blue" maxW="container.xl">
                 <SimpleGrid minChildWidth="300px">
-                  {/* {products.map((product) => {
+                  {products.map((product) => {
                     return <ProductCard key={product.id} {...product} />;
-                  })} */}
+                  })}
+                  {/* <ProductCard />
                   <ProductCard />
                   <ProductCard />
                   <ProductCard />
@@ -86,8 +131,7 @@ export const Electronics = () => {
                   <ProductCard />
                   <ProductCard />
                   <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
+                  <ProductCard /> */}
                 </SimpleGrid>
               </Container>
             </Box>

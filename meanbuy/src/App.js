@@ -6,10 +6,9 @@ import { ProductCard } from "./components/ProductCard";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
+      <Navbar />
       <MainRoutes />
-      <Footer /> */}
-      <ProductCard />
+      <Footer />
     </div>
   );
 }

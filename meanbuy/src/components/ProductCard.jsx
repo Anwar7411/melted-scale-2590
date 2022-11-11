@@ -49,7 +49,7 @@ export const ProductCard = () => {
       <Divider mt="5px" />
       <Box mt="5px">
         <Flex alignItems="center">
-          <Box>
+          <Box ml="12px">
             <Text color="#f98d29" fontSize="20px">
               <Icon as={BiRupee} viewBox="0 -10 24 24" />
               4,999

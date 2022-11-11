@@ -1,0 +1,17 @@
+.heading::after{
+    content: "";
+    width:45%;
+    margin-left:10%;
+    height: 1px;
+    position: absolute;
+
+    background-color: black;
+
+}
+.heading{
+    display: flex;
+
+    color:black;
+    align-items:center;
+
+}

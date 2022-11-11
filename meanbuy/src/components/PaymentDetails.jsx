@@ -1,12 +1,13 @@
 // import { Button, Image } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 
 const PaymentDetails = ({ handleSubmit }) => {
      return (
           <Wrapper>
-               <Wrapper2 style={{ display: "flex", flexDirection: "row" }}>
-                    {/* <label>Payment Details</label> */}
+               <Text as="b">Payment Details</Text>
+               <Wrapper2>
                     <TextImageContainer className="paymentDetails">
                          <ImageContainer>
                               <Image
@@ -85,11 +86,18 @@ const PaymentDetails = ({ handleSubmit }) => {
 };
 
 const Wrapper = styled.div`
-     border: 1px solid red;
+     margin-top: 130px;
+     width: 45rem;
+     padding: 5px;
 `;
-const Wrapper2 = styled.div``;
+const Wrapper2 = styled.div`
+     display: flex;
+     flexdirection: "row";
+     align-items: center;
+     justify-content: space-around;
+`;
 const Image = styled.img`
-     width: 80px;
+     width: 90px;
      hight: 50px;
 `;
 const Button = styled.button`
@@ -100,34 +108,27 @@ const Button = styled.button`
      height: 3.5rem;
      text-align: center;
      align-items: center;
+     justify-content: center;
      width: 70vh;
 `;
 const TextImageContainer = styled.div`
      display: flex;
+     border: 1px solid #ccc;
+     margin: 0 2px;
+     width: 150px;
      flex-direction: column;
-     height: 10rem;
+     height: 12rem;
      align-item: center;
-     justify-content: space-between;
-     margin-top: 80px;
+     justify-content: space-around;
 `;
 const ImageContainer = styled.div`
-     width: 80px;
-     height: 100px;
-     margin: auto;
+     margin: 0 auto;
      align-item: center;
 `;
 
 const TextContainer = styled.div`
      text-align: center;
      font-weight: bold;
-     width: 7rem;
 `;
 
 export default PaymentDetails;
-
-// color: palevioletred;
-// font-size: 1em;
-// margin: 1em;
-// padding: 0.25em 1em;
-// border: 2px solid palevioletred;
-// border-radius: 3px;

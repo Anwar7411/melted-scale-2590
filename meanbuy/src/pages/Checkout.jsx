@@ -5,7 +5,7 @@ import CartDetailCard from "../components/CartDetailCard";
 
 const Checkout = () => {
      return (
-          <Wrapper style={{ display: "flex", height: "100vh" }}>
+          <Wrapper>
                <WrapperUserAndPaymentDetails>
                     <DeliveryAddressContainer />
                </WrapperUserAndPaymentDetails>
@@ -18,7 +18,12 @@ const Checkout = () => {
 };
 
 const Wrapper = styled.div`
-     border: 1px solid red;
+     //   border: 1px solid red;
+     width: 85%;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: row;
+     //   height: 100vh;
 `;
 const WrapperCartShow = styled.div`
      width: 50%;

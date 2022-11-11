@@ -38,44 +38,7 @@
                 "Trending"
             ]
         },
-        {
-            "id": "1",
-            "title": "Printed Men Hooded Neck Red T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 269,
-            "strikeOff": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/4/r/1/xl-crd-try-this-original-imagype6cvwzcnwn-bb.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/832/832/klmmrgw0/t-shirt/q/u/g/xl-crd-try-this-original-imagype6huppvsr7.jpeg?q=70"
-            ],
-            "rating": "4.2/5",
-            "color": "Red",
-            "size": [
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Trending"
-            ]
-        },
+        
         {
             "id": "2",
             "title": "Solid Men Polo Neck Green T-Shirt",
@@ -114,44 +77,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "2",
-            "title": "Solid Men Polo Neck Green T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 499,
-            "strikeOff": 899,
-            "images": [
-                "https://rukminim1.flixcart.com/image/832/832/kgb5rbk0-0/t-shirt/2/c/z/3xl-ss20-sp15-scott-international-original-imafwjzdfja8v5ma.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kgb5rbk0-0/t-shirt/i/u/e/3xl-ss20-sp15-scott-international-original-imafwjzdrqzdpkhf.jpeg?q=70"
-            ],
-            "rating": "3.9/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "3",
             "title": "Solid Men Mandarin Collar Black, Grey T-Shirt",
@@ -190,83 +116,8 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "3",
-            "title": "Solid Men Mandarin Collar Black, Grey T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 499,
-            "strikeOff": 899,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/kyrlifk0/t-shirt/0/u/s/l-tdgyblhenful-d37-tripr-original-imagax9x6pkgwwg9.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kwzap3k0/t-shirt/u/6/8/s-tdgyblhenful-d37-tripr-original-imag9jjhebrz6huz.jpeg?q=70"
-            ],
-            "rating": "3.9/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
-        {
-            "id": "4",
-            "title": "Striped Men Round Neck Red T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 399,
-            "strike-off": 899,
-            "images": [
-                "https://rukminim1.flixcart.com/image/832/832/l2xmqvk0/t-shirt/o/o/4/s-ro-strp-red-streetvibes-original-image6fr2atepnkg.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l2xmqvk0/t-shirt/j/e/z/s-ro-strp-red-streetvibes-original-image6frs6sdbehr.jpeg?q=70"
-            ],
-            "rating": "3.9/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
+        
         {
             "id": "4",
             "title": "Striped Men Round Neck Red T-Shirt",
@@ -306,45 +157,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "5",
-            "title": "Solid Men Hooded Neck Red T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 499,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/l3nco7k0/t-shirt/4/s/x/m-622-moordale-original-imageq6hf7nrtcjt.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l3nco7k0/t-shirt/y/f/v/m-622-moordale-original-imageq6haw8dvdnc.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "5",
             "title": "Solid Men Hooded Neck Red T-Shirt",
@@ -384,45 +197,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "6",
-            "title": "Solid Men Polo Neck Green T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 299,
-            "strike-off": 799,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/t-shirt/v/n/u/l-polo-neck-globalitalianlook-original-imaghra4zqqcgbwt.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/t-shirt/5/f/m/l-polo-neck-globalitalianlook-original-imaghra4gpdkfspz.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "6",
             "title": "Solid Men Polo Neck Green T-Shirt",
@@ -579,84 +354,8 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "8",
-            "title": "Printed Men Hooded Neck Green T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 399,
-            "strikeOff": 899,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/k3ncakw0/t-shirt/g/g/h/l-men-fw18-hood-fs-olive-black-watched-maniac-original-imafmq32sk8jpq7s.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/k3ncakw0/t-shirt/g/g/h/m-men-fw18-hood-fs-olive-black-watched-maniac-original-imafmq32fa98jjzs.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
-        {
-            "id": "9",
-            "title": "Color Block Men Round Neck Grey T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 299,
-            "strike-off": 799,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/kvr01ow0/t-shirt/a/x/j/l-solid-t-shirt-goldbrok-original-imag8h24kt2tx2be.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/832/832/kvr01ow0/t-shirt/3/g/s/l-solid-t-shirt-goldbrok-original-imag8h24ycmhbd8g.jpeg?q=70"
-            ],
-            "rating": "4.5/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
+        
         {
             "id": "9",
             "title": "Color Block Men Round Neck Grey T-Shirt",
@@ -696,45 +395,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "10",
-            "title": "Color Block Men Round Neck Grey T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 299,
-            "strike-off": 799,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/l58iaa80/t-shirt/h/y/f/xs-t342hs-cmgbl-sr-eyebogler-original-imagfyjg43hxphuu.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l58iaa80/t-shirt/s/9/a/xs-t342hs-cmgbl-sr-eyebogler-original-imagfyjgbx3xaxtn.jpeg?q=70"
-            ],
-            "rating": "4.5/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "10",
             "title": "Color Block Men Round Neck Grey T-Shirt",
@@ -774,45 +435,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "11",
-            "title": "Solid Men Henley Neck Grey T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 299,
-            "strike-off": 799,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/t-shirt/g/o/x/m-fs1143b-corsair-original-imaghzsubxzzehgs.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/t-shirt/c/c/g/m-fs1143b-corsair-original-imaghzsu2aeyfcfh.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "11",
             "title": "Solid Men Henley Neck Grey T-Shirt",
@@ -852,45 +475,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "12",
-            "title": "Solid Men Round Neck Grey T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 699,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/kjiwfbk0-0/t-shirt/z/p/d/l-12120770-roadster-original-imafz2rzagq7jcs4.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/832/832/kjiwfbk0-0/t-shirt/i/i/p/l-12120770-roadster-original-imafz2rznhypcm7g.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "12",
             "title": "Solid Men Round Neck Grey T-Shirt",
@@ -930,45 +515,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "13",
-            "title": "Solid Men Mandarin Collar Red, Black T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 309,
-            "strike-off": 699,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/l0tweq80/t-shirt/v/r/q/xxl-trdblhenful-d37-tripr-original-imagcj39mhmrjtrt.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l0tweq80/t-shirt/v/r/q/xxl-trdblhenful-d37-tripr-original-imagcj39mhmrjtrt.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "13",
             "title": "Solid Men Mandarin Collar Red, Black T-Shirt",
@@ -1008,45 +555,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "14",
-            "title": "Solid Men Mandarin Collar Red T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 289,
-            "strike-off": 699,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/t-shirt/n/i/y/m-ausk098-ausk-original-imagg9k9gxgm6kmu.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kwnv6a80/t-shirt/z/y/d/xl-ausk098-ausk-original-imag9apghhyemhgx.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "14",
             "title": "Solid Men Mandarin Collar Red T-Shirt",
@@ -1086,45 +595,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "15",
-            "title": "Solid Men Round Neck Olive T-Shirt Solid Men Round Neck Green T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 289,
-            "strike-off": 699,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/t-shirt/o/d/z/s-1196-madfrog-original-imagg9pbuzu9qunz.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/t-shirt/2/k/q/s-1196-madfrog-original-imagg9pbzmdapynu.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "15",
             "title": "Solid Men Round Neck Olive T-Shirt Solid Men Round Neck Green T-Shirt",
@@ -1164,45 +635,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "16",
-            "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 699,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/kwzap3k0/shirt/d/g/z/s-lstr-green-p-v-creations-original-imag9jggthwyzjfg.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kwzap3k0/shirt/l/l/l/s-lstr-green-p-v-creations-original-imag9jggdv3uyfsq.jpeg?q=70"
-            ],
-            "rating": "3.9/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "16",
             "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
@@ -1242,45 +675,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "17",
-            "title": "Men Regular Fit Printed Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 689,
-            "strike-off": 899,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/l111lzk0/shirt/l/a/k/46-2508117-roadster-original-imagczmkwkvktpxh.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l4d2ljk0/shirt/y/4/s/-original-imagfaezybxvxeyz.jpeg?q=70"
-            ],
-            "rating": "4.2/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "17",
             "title": "Men Regular Fit Printed Casual Shirt",
@@ -1320,45 +715,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "18",
-            "title": "Men Slim Fit Solid Mandarin Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 399,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/ks4yz680/shirt/o/a/v/m-sksh-bb110-m-dksg-1-fubar-original-imag5sf7mkj3gza3.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/ks4yz680/shirt/u/j/9/m-sksh-bb110-m-dksg-1-fubar-original-imag5sf7xtyescrb.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "18",
             "title": "Men Slim Fit Solid Mandarin Collar Casual Shirt",
@@ -1398,45 +755,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "19",
-            "title": "Men Slim Fit Checkered Button Down Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 569,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/kxrvi4w0/shirt/2/t/d/m-maw21csh010b-metronaut-original-imaga5g24xr5zv5n.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kxrvi4w0/shirt/o/a/p/m-maw21csh010b-metronaut-original-imaga5g2rwnhugd9.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "19",
             "title": "Men Slim Fit Checkered Button Down Collar Casual Shirt",
@@ -1476,45 +795,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "20",
-            "title": "Anti-Bacterial Men Slim Fit Solid Cut Away Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 899,
-            "strike-off": 1099,
-            "images": [
-                "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/5/c/t/40-assfwmof764302-allen-solly-original-imafwfmazckzhwaz-bb.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kfmv9u80-0/shirt/u/r/w/40-assfwmof764302-allen-solly-original-imafwfmakfevkgve.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "20",
             "title": "Anti-Bacterial Men Slim Fit Solid Cut Away Collar Casual Shirt",
@@ -1554,45 +835,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "21",
-            "title": "Men Regular Fit Color Block Casual Shirt Special price",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 699,
-            "strike-off": 1099,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/t/r/5/s-brdblshirttfull-sr2-blive-original-imaghkbyqg8utkyc.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/q/a/1/s-brdblshirttfull-sr2-blive-original-imaghkbymqb7gkru.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "21",
             "title": "Men Regular Fit Color Block Casual Shirt Special price",
@@ -1632,45 +875,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "22",
-            "title": "Men Slim Fit Printed Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 899,
-            "strike-off": 1099,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/l4yi7bk0/shirt/h/q/p/xl-afnewfsshrt01-asian-fitch-original-imagfqtp6zffhs6e.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l4yi7bk0/shirt/b/i/j/xl-afnewfsshrt01-asian-fitch-original-imagfqtp2wfbme6z.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "22",
             "title": "Men Slim Fit Printed Casual Shirt",
@@ -1710,45 +915,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "23",
-            "title": "Men Slim Fit Solid Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 599,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/d/r/l/40-xmss12245-r6-parx-original-imagg24tu9tsf7gu.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/k/t/p/40-xmss12245-r6-parx-original-imagg24tpns8ngk6.jpeg?q=70"
-            ],
-            "rating": "3.1/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "23",
             "title": "Men Slim Fit Solid Casual Shirt",
@@ -1788,45 +955,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "24",
-            "title": "Men Checkered Casual Red Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 599,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/l4pxk7k0/shirt/j/l/i/l-gl-darkcheck-maroon-gridlock-original-imagfjwshdff3pa2.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l4pxk7k0/shirt/t/s/k/l-gl-darkcheck-maroon-gridlock-original-imagfjwsxhyszvmp.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "24",
             "title": "Men Checkered Casual Red Shirt",
@@ -1866,45 +995,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "25",
-            "title": "Men Regular Fit Printed Spread Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 499,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/l2krs7k0/shirt/7/f/t/m-trdshirtful-sh29-tripr-original-imagdwfmwa5xyuzw.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l22724w0/shirt/e/8/1/m-trdshirtful-sh29-tripr-original-imagdhnsgbfxuqxh.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Red",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "25",
             "title": "Men Regular Fit Printed Spread Collar Casual Shirt",
@@ -1944,45 +1035,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "26",
-            "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 599,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/g/q/9/m-lstr-grey-p-v-creations-original-imag9jggsvfcgpp4-bb.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kwzap3k0/shirt/5/e/r/m-lstr-grey-p-v-creations-original-imag9jgggux5yqqw.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "26",
             "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
@@ -2022,45 +1075,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "27",
-            "title": "Men Slim Fit Solid Cut Away Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 499,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/kmxsakw0/shirt/m/t/i/xl-um0018-cnd-creation-original-imagfq7rtjdxxgph.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kmxsakw0/shirt/e/k/g/xl-um0018-cnd-creation-original-imagfq7r42g6cwam.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "27",
             "title": "Men Slim Fit Solid Cut Away Collar Casual Shirt",
@@ -2100,45 +1115,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "28",
-            "title": "Men Regular Fit Solid Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 699,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/n/n/y/s-crc-den-01-carbonn-cloth-original-imag3uyxtxa2j5r2-bb.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/kpmy8i80/shirt/1/r/g/s-crc-den-01-carbonn-cloth-original-imag3uyx5m67cj3q.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
         {
             "id": "28",
             "title": "Men Regular Fit Solid Casual Shirt",
@@ -2178,45 +1155,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "29",
-            "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 699,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/l45xea80/shirt/t/p/j/m-maw21csh031c-metronaut-original-imagf4fyfvdjtqej.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/l45xea80/shirt/7/q/4/m-maw21csh031c-metronaut-original-imagf4fyagzwhau5.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "29",
             "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
@@ -2256,45 +1195,7 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "30",
-            "title": "Men Regular Fit Solid Cut Away Collar Casual Shirt",
-            "category": "Cloth",
-            "type": "Shirt",
-            "gender": "Men",
-            "price": 899,
-            "strike-off": 999,
-            "images": [
-                "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/x/w/x/m-usshto1232-u-s-polo-assn-original-imagh8xhgtgznhn8.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/q/r/a/m-usshto1232-u-s-polo-assn-original-imagh8xhfq6kyqnw.jpeg?q=70"
-            ],
-            "rating": "4.1/5",
-            "color": "Grey",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+        
         {
             "id": "30",
             "title": "Men Regular Fit Solid Cut Away Collar Casual Shirt",

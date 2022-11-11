@@ -1,9 +1,9 @@
 .Login{
     width: 1200px;
-    text-align: left;
-    margin-top: 15px;
-    width: 93%;
     margin: auto;
+    text-align: left;
+    margin-top: 100px;
+    width: 93%;
     border:1px solid #d2d2d2 ; 
 }
  .Login>h1{
@@ -21,7 +21,7 @@
 
  .Login input[type=email],input[type=password]{
      width: 800px;
-     font-size: 20px;
+     font-size: 18px;
       margin-bottom: 15px;
        height: 40px;
         margin-left: 12px;
@@ -32,10 +32,12 @@
      background: #f7941d;
      width: 800px;
      color: white;
-     font-size: 20px;
+     font-size: 18px;
      height: 40px;
       margin-left: 12px;
-      border:1px solid black
+      /* border:1px solid black */
+      border-radius: 8px;
+      cursor: pointer;
  }
 
  .forget{

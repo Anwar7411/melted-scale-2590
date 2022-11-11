@@ -24,8 +24,8 @@ const Navbar = () => {
              templateRows='repeat(2, 1fr)'
              w="150px" ml="50%"
               >
-              <GridItem colSpan={1} justifySelf="right" >LOGIN /</GridItem>
-                 <GridItem colSpan={1} >SIGN UP</GridItem>
+             <Link to="/login"><GridItem colSpan={1} justifySelf="right" >LOGIN /</GridItem></Link> 
+             <Link to="/SignUp"><GridItem colSpan={1} >SIGN UP</GridItem></Link>  
                <GridItem colSpan={2} color="red.500" >Welcome Guest</GridItem>
 
             </Grid>
@@ -33,9 +33,9 @@ const Navbar = () => {
       </Grid>
       
         <Grid className='botnav' templateColumns="repeat(5,100px)">
-          <div>Categories</div>
-          <Link to="/FlashSale" >Flash Sale</Link>
-          <div><Link to="/BestDeal">Best Deal</Link></div>
+          {/* <div>Categories</div> */}
+          <Link to="/Clothing" >Clothing</Link>
+          <div><Link to="/home/electronics">Electronics</Link></div>
           <div><Link to="/Shop">Shop by Brand</Link></div>
           <div><Link to="/Trending">Trending</Link></div>
         </Grid>

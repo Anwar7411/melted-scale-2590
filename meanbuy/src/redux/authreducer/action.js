@@ -17,7 +17,11 @@ const loginFailure=()=>{
     }
 }
 
-
+const logOut=()=>{
+    return{
+        type:types.Log_Out
+    }
+}
 
 
 const SignUpSuccess=(payload)=>{
@@ -27,6 +31,6 @@ const SignUpSuccess=(payload)=>{
     }
 }
 
-export {loginFailure,loginRequest,loginSuccess,SignUpSuccess}
+export {loginFailure,loginRequest,loginSuccess,SignUpSuccess,logOut}
 
 

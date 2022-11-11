@@ -39,6 +39,15 @@ const reducer = (state = initialstate, action) => {
         isAuth: false,
         userDetails: newUser,
       };
+      case types.Log_Out:
+      let newlogout = payload;
+      authsaveData("user", newlogout);
+      return {
+        ...state,
+        isLoading: false,
+        isAuth: false,
+        userDetails: newlogout,
+      };
 
     default:
       return state;

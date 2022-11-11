@@ -7,6 +7,7 @@ import FlashSale from './FlashSale'
 import BestDeal from './BestDeal'
 import Shop from './Shop'
 import Trending from './Trending'
+import Watchpage from "./Watchpage";
 import { Electronics } from "./Electronics";
 
 const MainRoutes = () => {
@@ -20,6 +21,7 @@ const MainRoutes = () => {
         <Route path="/BestDeal" element={<BestDeal/>}/>
         <Route path="/Shop" element={<Shop/>}/>
         <Route path="/Trending" element={<Trending/>}/>
+        <Route path="/Watchpage" element={<Watchpage/>}/>
       <Route path="*" element={<div>Page Not Found!</div>} />
     </Routes>
   );

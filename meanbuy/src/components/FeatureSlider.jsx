@@ -57,20 +57,22 @@ export default class MultipleItems extends Component {
     };
     return (
       <div>
-        <h2> Multiple items </h2>
+        <Flex >
+        <Heading className="heading" pr="83%" size={"xl"} >Featured</Heading>
+        </Flex>
         <Slider {...settings}>
             <div>
-                <Image  src="https://d64lkarmo2mrq.cloudfront.net/img/as_seen_on/medium.jpg"/>
-                <Heading size="xs" color={"#333333"}>FLair Explorer</Heading>
-                <Heading size="xs" color={"#455A64"}>E-commerce Inside the Startup Ecosystem in India</Heading>
+                <Image ml="15%" src="https://d64lkarmo2mrq.cloudfront.net/img/as_seen_on/chainmag.jpg"/>
+                <Heading size="xs" color={"#333333"}>Chain Magazine</Heading>
+                <Heading size="xs" color={"#455A64"}>MeanBuy -An Indian StartUp eCommerce Market Place</Heading>
            </div>
            <div>
-                <Image src="https://d64lkarmo2mrq.cloudfront.net/img/as_seen_on/medium.jpg"/>
-                <Heading size="xs" color={"#333333"}>FLair Explorer</Heading>
-                <Heading size="xs" color={"#455A64"}>E-commerce Inside the Startup Ecosystem in India</Heading>
+                <Image ml="15%" src="https://d64lkarmo2mrq.cloudfront.net/img/as_seen_on/sillicon.jpg"/>
+                <Heading size="xs" color={"#333333"}>Sillicon India</Heading>
+                <Heading size="xs" color={"#455A64"}>10 Most Promising E-Commerce Startups</Heading>
            </div>
            <div>
-                <Image src="https://d64lkarmo2mrq.cloudfront.net/img/as_seen_on/medium.jpg"/>
+                <Image ml="15%" src="https://d64lkarmo2mrq.cloudfront.net/img/as_seen_on/medium.jpg"/>
                 <Heading size="xs" color={"#333333"}>FLair Explorer</Heading>
                 <Heading size="xs" color={"#455A64"}>E-commerce Inside the Startup Ecosystem in India</Heading>
            </div>

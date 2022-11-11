@@ -28,13 +28,15 @@ export const ProductCard = () => {
         />
       </Box>
       <Box h="20px" w="100%" mt="5px">
-        <Text align="center">350ml Electric Portable Juicing Cup</Text>
+        <Text color="#455a64" align="center">
+          350ml Electric Portable Juicing Cup
+        </Text>
       </Box>
       <Box mt="5px">
         <Flex justifyContent="flex-end">
           <Badge
             variant="solid"
-            colorScheme="green"
+            backgroundColor="#3cc101"
             paddingLeft="12px"
             paddingRight="12px"
             borderRadius="5px"
@@ -45,17 +47,17 @@ export const ProductCard = () => {
         </Flex>
       </Box>
       <Divider mt="5px" />
-      <Box mt="8px">
+      <Box mt="5px">
         <Flex alignItems="center">
           <Box>
-            <Text color="orange.500">
+            <Text color="#f98d29" fontSize="20px">
               <Icon as={BiRupee} viewBox="0 -10 24 24" />
               4,999
             </Text>
           </Box>
           <Spacer />
           <Box>
-            <Text color="green.500">UP TO 67% OFF</Text>
+            <Text color="#008a00">UP TO 67% OFF</Text>
           </Box>
         </Flex>
       </Box>

@@ -7,6 +7,7 @@ import {
   SimpleGrid,
   Container,
 } from "@chakra-ui/react";
+import { ProductCard } from "../components/ProductCard";
 
 export const Electronics = () => {
   return (
@@ -30,7 +31,21 @@ export const Electronics = () => {
             </Box>
             <Box border="1px solid red" w="100%" h="88%" p={2}>
               <Container border="1px solid blue" maxW="4xl">
-                <SimpleGrid columns={3}>Grid</SimpleGrid>
+                <SimpleGrid columns={3}>
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                  <ProductCard />
+                </SimpleGrid>
               </Container>
             </Box>
           </VStack>

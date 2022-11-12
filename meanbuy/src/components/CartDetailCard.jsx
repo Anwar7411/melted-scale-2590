@@ -8,6 +8,7 @@ import {
      Image,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
+import { authsaveData } from "../redux/utilies/authLocalData";
 import CartCard from "./CartCard";
 const data = [
      {
@@ -40,6 +41,7 @@ const CartDetailCard = () => {
      const [totalFinalPrice, setTotalFinalPrice] = useState(null);
      const [coupenCode, setCoupenCode] = useState("");
      console.log(coupenCode);
+     let total = data.reduce((accum, item) => accum + item.price, 0);
 
      function applyDiscount() {
           if (coupenCode !== "" && coupenCode === "MASAI30") {
@@ -48,15 +50,17 @@ const CartDetailCard = () => {
                let discount = total - (total * 30) / 100;
                console.log("discount", discount);
                setTotalFinalPrice(discount);
+               authsaveData("finalPrice", discount);
           } else {
                total = data.reduce((accum, item) => accum + item.price, 0);
                setTotalFinalPrice(total);
+               authsaveData("finalPrice", total);
           }
           console.log("coupenCode", coupenCode);
      }
-     let total = data.reduce((accum, item) => accum + item.price, 0);
      useEffect(() => {
           setTotalFinalPrice(total);
+          authsaveData("finalPrice", total);
      }, []);
 
      return (

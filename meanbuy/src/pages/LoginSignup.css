@@ -1,112 +1,113 @@
-.Login{
-    width: 1200px;
-    text-align: left;
-    margin-top: 15px;
-    width: 93%;
-    margin: auto;
-    border:1px solid #d2d2d2 ; 
+.Login {
+     width: 1200px;
+     text-align: left;
+     margin-top: 15px;
+     width: 93%;
+     margin: auto;
+     border: 1px solid #d2d2d2;
 }
- .Login>h1{
-    color: #f79850 ;
+.Login > h1 {
+     color: #f79850;
      margin-bottom: 40px;
-      margin-left: 10px;
-      font-weight:bold;
-      font-size:21px 
- }
+     margin-left: 10px;
+     font-weight: bold;
+     font-size: 21px;
+}
 
- .Login label{
-    margin-bottom: 10px;
-    margin-left: 12px
- }
+.Login label {
+     margin-bottom: 10px;
+     margin-left: 12px;
+}
 
- .Login input[type=email],input[type=password]{
+/* .Login input[type="email"],
+input[type="password"] {
      width: 800px;
      font-size: 20px;
-      margin-bottom: 15px;
-       height: 40px;
-        margin-left: 12px;
-        border:1px solid #d2d2d2 
- }
+     margin-bottom: 15px;
+     height: 40px;
+     margin-left: 12px;
+     border: 1px solid #d2d2d2;
+} */
 
- .inputsubmit{
+.inputsubmit {
      background: #f7941d;
      width: 800px;
      color: white;
      font-size: 20px;
      height: 40px;
-      margin-left: 12px;
-      border:1px solid black
- }
-
- .forget{
-    margin: 10px 350px;
-     margin-bottom: -10px
- }
-
-.Loginlink{
-    margin: 10px 300px;
+     margin-left: 12px;
+     border: 1px solid black;
 }
- @media (max-width:900px) {
-    .Login{
-        width: 93%;
-    }
-    .Login>h1{
-          font-size:17px 
+
+.forget {
+     margin: 10px 350px;
+     margin-bottom: -10px;
+}
+
+.Loginlink {
+     margin: 10px 300px;
+}
+@media (max-width: 900px) {
+     .Login {
+          width: 93%;
      }
-     .Login input[type=email],input[type=password]{
-        width: 400px;
-        font-size: 17px;
-         margin-bottom: 15px;
+     .Login > h1 {
+          font-size: 17px;
+     }
+     .Login input[type="email"],
+     input[type="password"] {
+          width: 400px;
+          font-size: 17px;
+          margin-bottom: 15px;
           height: 30px;
-    }
-
-    .inputsubmit{
-        width: 400px;
-        color: white;
-        font-size: 17px;
-        height: 30px;
-    }
-    .Loginlink{
-        margin: 10px 90px;
-        font-size: 14px;
-    }
-    .forget{
-        margin: 10px 130px;
-         margin-bottom: -10px;
      }
 
- }
-
- @media (max-width:450px) {
-    .Login{
-        width: 93%;
-    }
-    .Login>h1{
-          font-size:14px 
+     .inputsubmit {
+          width: 400px;
+          color: white;
+          font-size: 17px;
+          height: 30px;
      }
-     .Login input[type=email],input[type=password]{
-        width: 250px;
-        font-size: 14px;
-         margin-bottom: 15px;
+     .Loginlink {
+          margin: 10px 90px;
+          font-size: 14px;
+     }
+     .forget {
+          margin: 10px 130px;
+          margin-bottom: -10px;
+     }
+}
+
+@media (max-width: 450px) {
+     .Login {
+          width: 93%;
+     }
+     .Login > h1 {
+          font-size: 14px;
+     }
+     .Login input[type="email"],
+     input[type="password"] {
+          width: 250px;
+          font-size: 14px;
+          margin-bottom: 15px;
           height: 25px;
-    }
-     .Login label{
-        font-size: 14px;
      }
-    .inputsubmit{
-        width: 250px;
-        color: white;
-        font-size: 14px;
-        height: 25px;
-    }
-    .Loginlink{
-        margin: 10px 20px;
-        font-size: 12px;
-    }
-    .forget{
-        margin: 10px 70px;
-         margin-bottom: -20px;
-         font-size: 13px;
+     .Login label {
+          font-size: 14px;
      }
-
- }
+     .inputsubmit {
+          width: 250px;
+          color: white;
+          font-size: 14px;
+          height: 25px;
+     }
+     .Loginlink {
+          margin: 10px 20px;
+          font-size: 12px;
+     }
+     .forget {
+          margin: 10px 70px;
+          margin-bottom: -20px;
+          font-size: 13px;
+     }
+}

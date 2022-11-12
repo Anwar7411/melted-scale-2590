@@ -19,7 +19,6 @@ const VendorRegistrationForm = () => {
 const Wrapper = styled.div`
      margin: auto;
      width: 90%;
-     border: 1px solid red;
      display: flex;
      justify-content: space-between;
 `;

@@ -1,5 +1,9 @@
-import { Box, Link } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import React from "react";
+import { ImCopy } from "react-icons/im";
+import { GoGraph } from "react-icons/go";
+import { MdSettingsOverscan } from "react-icons/md";
 import {
      Accordion,
      AccordionItem,
@@ -18,12 +22,12 @@ const Menu = () => {
                     flexDirection: "column",
                     width: "250px",
                     backgroundColor: "#2A3F54",
-                    height:"300vh"
+                    height: "300vh",
                }}
           >
                <Box>
                     <img
-                         //  style={{ width: "50px" }}
+                          style={{ width: "200px" }}
                          src="https://merchant.meanbuy.in/assets/img/india/logo/baselogo.png"
                          alt=""
                     />
@@ -31,13 +35,14 @@ const Menu = () => {
                <Box
                     style={{
                          display: "flex",
+                         marginTop:"10px",
                          alignItems: "center",
                          justifyContent: "space-between",
                     }}
                >
                     <Box>
                          <img
-                              style={{ width: "70px" }}
+                              style={{ width: "50px" ,borderRadius:"50%"}}
                               src="https://merchant.meanbuy.in/assets/Merchant/images/profiles/india.jpg"
                               alt="Welcom Admin"
                          />
@@ -175,8 +180,13 @@ const Menu = () => {
                                         backgroundColor={"#2A3F54"}
                                         color={"white"}
                                    >
-                                        <Box flex="1" textAlign="left">
-                                             Management Tools
+                                        <Box
+                                             w="100%"
+                                             display={"flex"}
+                                             alignItems={"center"}
+                                             justifyContent={"space-around"}
+                                        >
+                                             <ImCopy /> Management Tools
                                         </Box>
                                         <AccordionIcon />
                                    </AccordionButton>
@@ -198,7 +208,7 @@ const Menu = () => {
                                    <Link
                                         textDecoration="none"
                                         color={"white"}
-                                        href="src\Components\ProductUploadForm.jsx"
+                                        to="/productUploadForm"
                                    >
                                         Product Upload (Online Form) (.CSV File)
                                    </Link>
@@ -233,7 +243,7 @@ const Menu = () => {
                                    <Link
                                         textDecoration="none"
                                         color={"white"}
-                                        href="#"
+                                        to="/admindashboard"
                                    >
                                         View (Un)verified Products
                                    </Link>
@@ -245,8 +255,13 @@ const Menu = () => {
                                         backgroundColor={"#2A3F54"}
                                         color={"white"}
                                    >
-                                        <Box flex="1" textAlign="left">
-                                             Data
+                                        <Box
+                                             w="100%"
+                                             display={"flex"}
+                                             alignItems={"center"}
+                                             justifyContent={"space-evenly"}
+                                        >
+                                             <GoGraph /> Data
                                         </Box>
                                         <AccordionIcon />
                                    </AccordionButton>
@@ -290,8 +305,14 @@ const Menu = () => {
                                         backgroundColor={"#2A3F54"}
                                         color={"white"}
                                    >
-                                        <Box flex="1" textAlign="left">
-                                             General Information
+                                        <Box
+                                             w="100%"
+                                             display={"flex"}
+                                             alignItems={"center"}
+                                             justifyContent={"space-around"}
+                                        >
+                                             <MdSettingsOverscan /> General
+                                             Information
                                         </Box>
                                         <AccordionIcon />
                                    </AccordionButton>

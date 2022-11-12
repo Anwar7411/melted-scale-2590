@@ -5,7 +5,7 @@ const initialstate = {
   isAuth: authgetData("isAuth") || false,
   isLoading: false,
   isError: false,
-  userDetails: authgetData("user") || { email: "", password: "" },
+  userDetails: authgetData("user") || {name:"", email: "", password: "" },
 };
 const reducer = (state = initialstate, action) => {
   const { type, payload } = action;
@@ -15,6 +15,7 @@ const reducer = (state = initialstate, action) => {
         ...state,
         isLoading: true,
       };
+      
     case types.Login_Success:
       let newAuth = true;
       authsaveData("isAuth", newAuth);
@@ -23,6 +24,7 @@ const reducer = (state = initialstate, action) => {
         isLoading: false,
         isAuth: true,
       };
+
     case types.Login_Failue:
       return {
         ...state,
@@ -30,6 +32,7 @@ const reducer = (state = initialstate, action) => {
         isAuth: false,
         isError: true,
       };
+
     case types.SingnUp_Success:
       let newUser = payload;
       authsaveData("user", newUser);
@@ -38,6 +41,16 @@ const reducer = (state = initialstate, action) => {
         isLoading: false,
         isAuth: false,
         userDetails: newUser,
+      };
+
+      case types.Log_Out:
+      let newlogout = payload;
+      authsaveData("user", newlogout);
+      return {
+        ...state,
+        isLoading: false,
+        isAuth: false,
+        userDetails: newlogout,
       };
 
     default:

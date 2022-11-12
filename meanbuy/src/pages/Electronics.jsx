@@ -13,6 +13,7 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
+  Spinner,
 } from "@chakra-ui/react";
 import { useLocation, useParams, useSearchParams } from "react-router-dom";
 import { ProductCard } from "../components/ProductCard";
@@ -28,6 +29,8 @@ export const Electronics = () => {
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const [sortBy, setSortBy] = useState(searchParams.get("sortBy") || "");
+  const  isLoading = useSelector((store) => store.AppReducer.isLoading);
+   
 
   // console.log(location);
 
@@ -48,6 +51,10 @@ export const Electronics = () => {
       dispatch(getElectronicsProduct(queryParams));
     }
   }, [location.search]);
+
+  if(isLoading==true){ 
+    return   <Spinner color='red.500' mb="800px" />
+   }
 
   return (
     <Box w="100%" border="1px solid red" p={2}>

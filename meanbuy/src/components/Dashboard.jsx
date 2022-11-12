@@ -2,6 +2,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 import { Box, Image } from "@chakra-ui/react";
 import React from "react";
 import ProductUploadForm from "./ProductUploadForm";
+import UnVerifiedData from "./UnVerifiedData";
 
 const Dashboard = () => {
      return (
@@ -51,7 +52,8 @@ const Dashboard = () => {
                          </div>
                     </div>
                </div>
-               <ProductUploadForm />
+               {/* <ProductUploadForm /> */}
+               <UnVerifiedData />
           </div>
      );
 };

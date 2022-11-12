@@ -13,6 +13,8 @@ import {
 import React, { useState } from "react";
 import PaymentDetails from "./PaymentDetails";
 import { stateList } from "./state";
+import { authgetData, authsaveData } from "../redux/utilies/authLocalData";
+import { useNavigate } from "react-router-dom";
 const initState = {
      fullname: "",
      phone: "",
@@ -27,6 +29,7 @@ const initState = {
 
 const DeliveryAddressContainer = () => {
      const [formData, setFormData] = useState(initState);
+     const navigate = useNavigate();
      const handleChange = (event) => {
           const { name, value } = event.target;
           const val = name === "age" ? Number(value) : value;
@@ -44,7 +47,9 @@ const DeliveryAddressContainer = () => {
           pincode,
      } = formData;
      const handleSubmit = () => {
-          console.log(formData);
+          // console.log(formData);
+          authsaveData("address", formData);
+          navigate("/cardpayment");
      };
 
      return (
@@ -74,7 +79,7 @@ const DeliveryAddressContainer = () => {
                               Sign Up
                          </Link>
                     </Text>
-                    <FormControl>
+                    <FormControl isRequired>
                          <FormLabel fontSize={"sm"} mt="5">
                               Email address
                          </FormLabel>
@@ -82,7 +87,7 @@ const DeliveryAddressContainer = () => {
                               type="email"
                               name="email"
                               value={email}
-                              required
+                              isRequired={true}
                               placeholder="Email Address"
                               onChange={handleChange}
                          />

@@ -9,6 +9,16 @@ import Shop from "./Shop";
 import Trending from "./Trending";
 import { Electronics } from "./Electronics";
 import Clothing from "./Clothing";
+import MarchentLogin from "./MarchentLogin";
+import Checkout from "./Checkout";
+import Admindashboard from "./Admindashboard";
+import ProductUploadMarchent from "../components/ProductUploadMarchent";
+import VendorRegistrationForm from "./VendorRegistrationForm";
+import CardPayment from "../components/CardPayment";
+import DeliveryDetails from "../components/DeliveryDetails";
+import ThankYou from "../components/ThankYou";
+import Watchpage from "./Watchpage";
+import PrivateRoute from "./PrivateRoute";
 
 const MainRoutes = () => {
   return (

@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import {AiFillStar} from "react-icons/ai"
 import "./Watchslider.css"
 import {Image,Heading,Container,GridItem,Grid, Button, Flex} from "@chakra-ui/react"
+import { Link } from "react-router-dom";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,7 +28,7 @@ export default class AutoPlay4 extends Component {
       <div>
         <Flex >
         <Heading className="heading" pr="83%" size={"xl"} >Clothing</Heading>
-        <Button marginLeft="-10px" w="50px" bg={"white"}>See More</Button>
+         <Link to="/clothing"><Button marginLeft="-10px" w="50px" bg={"white"}>See More</Button></Link>  
 
         </Flex>
        

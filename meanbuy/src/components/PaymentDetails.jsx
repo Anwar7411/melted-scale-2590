@@ -11,17 +11,6 @@ const PaymentDetails = ({ handleSubmit }) => {
                     <TextImageContainer className="paymentDetails">
                          <ImageContainer>
                               <Image
-                                   src="https://thumbs.dreamstime.com/b/truck-cart-envelope-mail-postal-service-vector-illustration-design-truck-cart-envelope-mail-postal-service-167530835.jpg"
-                                   alt="CashOnDelivery"
-                              />
-                         </ImageContainer>
-                         <TextContainer>
-                              <p>Cash on Delivery (COD)</p>
-                         </TextContainer>
-                    </TextImageContainer>
-                    <TextImageContainer className="paymentDetails">
-                         <ImageContainer>
-                              <Image
                                    src="https://www.moodlemonkey.com/wp-content/uploads/2020/01/how-it-works-icon2-1.png"
                                    alt="credid/Debit Card"
                               />

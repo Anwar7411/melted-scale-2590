@@ -1,3 +1,4 @@
+
 import * as types from "./actionTypes";
 
 const initialState = {
@@ -5,6 +6,7 @@ const initialState = {
   isError: false,
   cloth: [],
   electronicsProduct: [],
+    Watch:[],
   isELoading: false,
   isEError: false,
 };
@@ -47,9 +49,30 @@ const reducer = (state = initialState, action) => {
         isEError: true,
         electronicsProduct: [],
       };
+       case types.GET_Watch_REQUEST:
+            return{
+                ...oldstate,
+                isLoading:true,
+            };
+        case types.GET_Watch_SUCCESS:
+            return{
+                ...oldstate,
+                isLoading:false,
+                Watch:payload
+
+            };
+        case types.GET_Watch_FAILURE:
+            return{
+                ...oldstate,
+                IsError:true,
+                Watch:[]
+
+            };            
+            
     default:
       return state;
   }
 };
 
 export { reducer };
+

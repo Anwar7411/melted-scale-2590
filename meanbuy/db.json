@@ -7,7 +7,7 @@
             "type": "t-shirt",
             "gender": "Men",
             "price": 269,
-            "strike-off": 999,
+            "strikeOff": 999,
             "images": [
                 "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/4/r/1/xl-crd-try-this-original-imagype6cvwzcnwn-bb.jpeg?q=70",
                 "https://rukminim1.flixcart.com/image/832/832/klmmrgw0/t-shirt/q/u/g/xl-crd-try-this-original-imagype6huppvsr7.jpeg?q=70"
@@ -46,7 +46,7 @@
             "type": "t-shirt",
             "gender": "Men",
             "price": 499,
-            "strike-off": 899,
+            "strikeOff": 899,
             "images": [
                 "https://rukminim1.flixcart.com/image/832/832/kgb5rbk0-0/t-shirt/2/c/z/3xl-ss20-sp15-scott-international-original-imafwjzdfja8v5ma.jpeg?q=70",
                 "https://rukminim1.flixcart.com/image/128/128/kgb5rbk0-0/t-shirt/i/u/e/3xl-ss20-sp15-scott-international-original-imafwjzdrqzdpkhf.jpeg?q=70"
@@ -77,6 +77,84 @@
                 "Best Deal"
             ]
         },
+        {
+            "id": "43",
+            "title": "Rimsha Wear Women's Solid Regular Fit Ruffle Top",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 799,
+            "strikeOff": 999,
+            "images": [
+                "https://m.media-amazon.com/images/I/4102Duka1dL.jpg",
+                "https://m.media-amazon.com/images/I/4102Duka1dL.jpg"
+            ],
+            "rating": "3.8/5",
+            "color": "Grey",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "44",
+            "title": "ZOLA Exclusive All Over Floral Printed Hip Length Mandarin",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 799,
+            "strikeOff": 999,
+            "images": [
+                "https://m.media-amazon.com/images/I/71QJjUu+AOL._UX679_.jpg",
+                "https://m.media-amazon.com/images/I/61Wucen7s8L._UY741_.jpg"
+            ],
+            "rating": "3.9/5",
+            "color": "Grey",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
         
         {
             "id": "3",
@@ -85,7 +163,7 @@
             "type": "t-shirt",
             "gender": "Men",
             "price": 499,
-            "strike-off": 899,
+            "strikeOff": 899,
             "images": [
                 "https://rukminim1.flixcart.com/image/128/128/kyrlifk0/t-shirt/0/u/s/l-tdgyblhenful-d37-tripr-original-imagax9x6pkgwwg9.jpeg?q=70",
                 "https://rukminim1.flixcart.com/image/128/128/kwzap3k0/t-shirt/u/6/8/s-tdgyblhenful-d37-tripr-original-imag9jjhebrz6huz.jpeg?q=70"
@@ -117,7 +195,84 @@
             ]
         },
         
-        
+        {
+            "id": "41",
+            "title": "Eva Fashion Fancy 3/4 Sleeves Women's Top",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 599,
+            "strikeOff": 999,
+            "images": [
+                "https://m.media-amazon.com/images/I/410aph761fL.jpg",
+                "https://m.media-amazon.com/images/I/410aph761fL.jpg"
+            ],
+            "rating": "3.9/5",
+            "color": "Grey",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "42",
+            "title": "Miss Chase Women's Grey Cotton Pompom Boxy Crop Top",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 699,
+            "strikeOff": 999,
+            "images": [
+                "https://m.media-amazon.com/images/I/81WpYq1AipL._UY879_.jpg",
+                "https://m.media-amazon.com/images/I/81QO8LCLQFL._UY741_.jpg"
+            ],
+            "rating": "4.1/5",
+            "color": "Grey",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
         {
             "id": "4",
             "title": "Striped Men Round Neck Red T-Shirt",
@@ -237,7 +392,84 @@
                 "Best Deal"
             ]
         },
-       
+        {
+            "id": "34",
+            "title": "Shaye Women's Satin Solid Top Elasticated Blouson 3/4th Sleeves",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 699,
+            "strikeOff": 1199,
+            "images": [
+                "https://m.media-amazon.com/images/I/41AVDCHWXGL.jpg",
+                "https://m.media-amazon.com/images/I/61MBlP72hcL._UY741_.jpg"
+            ],
+            "rating": "3.6/5",
+            "color": "Red",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "35",
+            "title": "Istyle Can High Neck Long Sleeves Slim Fit Lycra Stretchable Women's Top",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 699,
+            "strikeOff": 1199,
+            "images": [
+                "https://m.media-amazon.com/images/I/617D8jKnZ9L._UX679_.jpg",
+                "https://m.media-amazon.com/images/I/61A7KoHWiYL._UX679_.jpg"
+            ],
+            "rating": "3.6/5",
+            "color": "Red",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
        
         {
             "id": "8",
@@ -414,6 +646,201 @@
             ],
             "rating": "4.1/5",
             "color": "Grey",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "36",
+            "title": "Nena Fashion Women's Regular Fit Top with Scoop Neck, Cuffed Balloon Sleeves",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 599,
+            "strikeOff": 1299,
+            "images": [
+                "https://m.media-amazon.com/images/I/51+e3xFARtL._UY879_.jpg",
+                "https://m.media-amazon.com/images/I/510QNWFqj8L._UY741_.jpg"
+            ],
+            "rating": "4.1/5",
+            "color": "Green",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "37",
+            "title": "SIRIL Women's Lycra Regular Fit Top",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 599,
+            "strikeOff": 1299,
+            "images": [
+                "https://m.media-amazon.com/images/I/71JLInYfuEL._UY741_.jpg",
+                "https://m.media-amazon.com/images/I/711FpxGAmsL._UY741_.jpg"
+            ],
+            "rating": "4.2/5",
+            "color": "Green",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "38",
+            "title": "MIZAGO Women's Top",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 999,
+            "strikeOff": 1299,
+            "images": [
+                "https://m.media-amazon.com/images/I/41ayUM7JarL._UY741_.jpg",
+                "https://m.media-amazon.com/images/I/41-Clf-f4zL._UY741_.jpg"
+            ],
+            "rating": "4.2/5",
+            "color": "Green",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "39",
+            "title": "Istyle Can Short Puff Sleeve Square Neck Women's Crop Top",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 899,
+            "strikeOff": 1299,
+            "images": [
+                "https://m.media-amazon.com/images/I/71eBXugDJFL._UY879_.jpg",
+                "https://m.media-amazon.com/images/I/71xgcShBqgL._UY741_.jpg"
+            ],
+            "rating": "4.3/5",
+            "color": "Green",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "40",
+            "title": "Chokhi Bandhni Women's Rayon Solid Regular Fit Top",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 799,
+            "strikeOff": 1299,
+            "images": [
+                "https://m.media-amazon.com/images/I/713tFmCbbGL._UY741_.jpg",
+                "https://m.media-amazon.com/images/I/71cSDGz59NL._UY741_.jpg"
+            ],
+            "rating": "3.9/5",
+            "color": "Green",
             "size": [
                 "S",
                 "L",
@@ -1131,6 +1558,165 @@
             "images": [
                 "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/x/w/x/m-usshto1232-u-s-polo-assn-original-imagh8xhgtgznhn8.jpeg?q=70",
                 "https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/q/r/a/m-usshto1232-u-s-polo-assn-original-imagh8xhfq6kyqnw.jpeg?q=70"
+            ],
+            "rating": "4.1/5",
+            "color": "Grey",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "31",
+            "title": "itshe Polyester Casual Puff Half Sleeve Fancy Top for Women's",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 999,
+            "strikeOff": 1999,
+            "images": [
+                "https://m.media-amazon.com/images/I/712hrDmthtL._UY879_.jpg",
+                "https://m.media-amazon.com/images/I/714cI5FqkVL._UY741_.jpg"
+            ],
+            "rating": "4.3/5",
+            "color": "Red",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "32",
+            "title": "iIstyle Can Short Puff Sleeve Square Neck Slim Fit Women's Tops",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 799,
+            "strikeOff": 1299,
+            "images": [
+                "https://m.media-amazon.com/images/I/61ZbVxkCCkL._UY879_.jpg",
+                "https://m.media-amazon.com/images/I/61zKfytI8dL._UX679_.jpg"
+            ],
+            "rating": "3.9/5",
+            "color": "Red",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        {
+            "id": "33",
+            "title": "Shasmi Women's White Square Neck Short Puff Sleeve",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 499,
+            "strikeOff": 1199,
+            "images": [
+                "https://m.media-amazon.com/images/I/61-Ssb8gQ1L._UY879_.jpg",
+                "https://m.media-amazon.com/images/I/618Ka7Aw2AL._UY741_.jpg"
+            ],
+            "rating": "3.8/5",
+            "color": "Red",
+            "size": [
+                "S",
+                "L",
+                "M",
+                "XL"
+            ],
+            "description": [
+                "Type : Hooded Neck",
+                "Sleeve : Full Sleeve",
+                "Fit : Slim",
+                "Fabric : Cotton Blend",
+                "Pack of : 1",
+                "Style Code : CRD",
+                "Neck Type : Hooded Neck",
+                "Ideal For : Men",
+                "Pattern : Printed",
+                "Suitable For : Western Wear",
+                "Fabric : Care",
+                "Machine wash as per tag"
+            ],
+            "offer": [
+                "New Arrival",
+                "Best Deal"
+            ]
+        },
+        
+       
+       
+        {
+            "id": "45",
+            "title": "Prettify Women's Regular Fit Embroidered Western Top ",
+            "category": "Cloth",
+            "type": "top",
+            "gender": "Women",
+            "price": 999,
+            "strikeOff": 1999,
+            "images": [
+                "https://m.media-amazon.com/images/I/61iE4Ok2LFL._UY741_.jpg",
+                "https://m.media-amazon.com/images/I/61TZLBigiWL._UY741_.jpg"
             ],
             "rating": "4.1/5",
             "color": "Grey",

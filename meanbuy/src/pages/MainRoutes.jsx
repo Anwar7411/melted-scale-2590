@@ -31,7 +31,7 @@ const MainRoutes = () => {
       <Route path="/electronics" element={<Electronics />} />
       <Route path="/electronics/:id" element={<Product />} />
       <Route path="/clothing" element={<Clothing />}></Route>
-      <Route path="/clothing/:id" element={<Product />} />
+      <Route path="/products/:id" element={<Product />} />
       <Route path="/Watchpage" element={<Watchpage />} />
       <Route path="/Watchpage/:id" element={<Product />} />
       <Route path="/admindashboard" element={<Admindashboard />} />

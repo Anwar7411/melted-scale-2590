@@ -36,7 +36,7 @@ import { BiRupee } from "react-icons/bi";
 import { useLocation, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useDispatch } from "react-redux";
+import { authgetData, saveCartData } from "../redux/utilies/authLocalData";
 
 export const Product = () => {
   const location = useLocation();
@@ -44,7 +44,6 @@ export const Product = () => {
   const [prodData, setProdData] = useState({});
 
   const { pathname } = location;
-  console.log(pathname);
 
   const { id } = useParams();
 
@@ -62,13 +61,14 @@ export const Product = () => {
 
   useEffect(() => {
     getData();
-    // console.log(prodData);
   }, []);
 
-  const handleAddCart = () => {};
+  const handleAddCart = () => {
+    saveCartData("user_cart_items", prodData);
+  };
 
   return (
-    <Container maxW="container.xl" border="1px solid red" mb="80px">
+    <Container maxW="container.xl" mb="80px">
       <Flex
         gap="50px"
         flexDirection={{
@@ -222,6 +222,7 @@ export const Product = () => {
                 borderRadius="4px"
                 pl={14}
                 pr={14}
+                onClick={handleAddCart}
               >
                 ADD TO CART
               </Button>

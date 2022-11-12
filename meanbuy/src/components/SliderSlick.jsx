@@ -6,7 +6,7 @@ import Slider from "react-slick";
 export const SliderSlick = ({ images }) => {
   // console.log("images: ", images);
   return (
-    <Box p="0 30px">
+    <Box p="0 30px" background="orange.200" borderRadius="10px">
       <Slider>
         {images &&
           images?.map((image) => {

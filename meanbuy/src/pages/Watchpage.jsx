@@ -18,20 +18,19 @@ const Watchpage = () => {
 };
 
 const Wrapper = style.div`
-border: 1px solid red;
 display:flex;
 min-height:100vh;
+margin-bottom:20px;
 `;
 const WrapperFilterSort = style.div`
 width:200px;
-border:1px solid black
 `;
 const WrapperWatches = style.div`
-border: 1px solid blue;
 width:100%;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,max-content));
 justify-content:center;
+margin-top:-50px;
 grid-gap:10px;   
 `;
 export default Watchpage;

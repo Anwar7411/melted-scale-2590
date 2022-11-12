@@ -85,7 +85,7 @@ const Clothing = () => {
     setSearchParam(params)
   }, [color, type, gender,sortBy])
   return (
-    <Flex gap={100} w="94%" m="auto" mt="20px">
+    <Flex gap={100} w="94%" m="auto" mt="20px" mb="50px">
       <Box>
       <VStack>
         <Popover>

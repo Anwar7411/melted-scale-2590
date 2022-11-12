@@ -237,84 +237,8 @@
                 "Best Deal"
             ]
         },
-        {
-            "id": "7",
-            "title": "Printed Men Hooded Neck Green T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 399,
-            "strike-off": 899,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/k3ncakw0/t-shirt/g/g/h/l-men-fw18-hood-fs-olive-black-watched-maniac-original-imafmq32sk8jpq7s.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/k3ncakw0/t-shirt/g/g/h/m-men-fw18-hood-fs-olive-black-watched-maniac-original-imafmq32fa98jjzs.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
-        {
-            "id": "7",
-            "title": "Printed Men Hooded Neck Green T-Shirt",
-            "category": "Cloth",
-            "type": "t-shirt",
-            "gender": "Men",
-            "price": 399,
-            "strikeOff": 899,
-            "images": [
-                "https://rukminim1.flixcart.com/image/128/128/k3ncakw0/t-shirt/g/g/h/l-men-fw18-hood-fs-olive-black-watched-maniac-original-imafmq32sk8jpq7s.jpeg?q=70",
-                "https://rukminim1.flixcart.com/image/128/128/k3ncakw0/t-shirt/g/g/h/m-men-fw18-hood-fs-olive-black-watched-maniac-original-imafmq32fa98jjzs.jpeg?q=70"
-            ],
-            "rating": "3.8/5",
-            "color": "Green",
-            "size": [
-                "S",
-                "L",
-                "M",
-                "XL"
-            ],
-            "description": [
-                "Type : Hooded Neck",
-                "Sleeve : Full Sleeve",
-                "Fit : Slim",
-                "Fabric : Cotton Blend",
-                "Pack of : 1",
-                "Style Code : CRD",
-                "Neck Type : Hooded Neck",
-                "Ideal For : Men",
-                "Pattern : Printed",
-                "Suitable For : Western Wear",
-                "Fabric : Care",
-                "Machine wash as per tag"
-            ],
-            "offer": [
-                "New Arrival",
-                "Best Deal"
-            ]
-        },
+       
+       
         {
             "id": "8",
             "title": "Printed Men Hooded Neck Green T-Shirt",

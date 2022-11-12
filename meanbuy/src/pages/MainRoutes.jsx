@@ -9,20 +9,24 @@ import Shop from './Shop'
 import Trending from './Trending'
 import Watchpage from "./Watchpage";
 import { Electronics } from "./Electronics";
-
+import Clothing from "./Clothing";
+import PageNotFound from "./PageNotFound";
+import PrivateRoute from "./PrivateRoute";
 const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/login" element={<Login />}></Route>
       <Route path="/SignUp" element={<SignUp />}></Route>
       <Route path="/home/electronics" element={<Electronics />} />
+      <Route path="/clothing" element={<PrivateRoute><Clothing /></PrivateRoute>}></Route>
       <Route path="/" element={<Home/>}/>
         <Route path="/FlashSale" element={<FlashSale/>}/>
         <Route path="/BestDeal" element={<BestDeal/>}/>
         <Route path="/Shop" element={<Shop/>}/>
         <Route path="/Trending" element={<Trending/>}/>
+
         <Route path="/Watchpage" element={<Watchpage/>}/>
-      <Route path="*" element={<div>Page Not Found!</div>} />
+      
     </Routes>
   );
 };

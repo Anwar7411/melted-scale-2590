@@ -7,25 +7,79 @@ import {
      Button,
      Image,
 } from "@chakra-ui/react";
-import React from "react";
-
+import React, { useEffect, useState } from "react";
+import CartCard from "./CartCard";
+const data = [
+     {
+          id: 1,
+          title: "Military Fashion Watch - Black",
+          date: " December 7, 2022",
+          price: 3499,
+     },
+     {
+          id: 2,
+          title: "Military Fashion Watch - Black",
+          date: "Dilivery Date: December 7, 2022",
+          price: 3499,
+     },
+     {
+          id: 3,
+          title: "Military Fashion Watch - Black",
+          date: "Dilivery Date: December 7, 2022",
+          price: 3499,
+     },
+     {
+          id: 4,
+          title: "Military Fashion Watch - Black",
+          date: "Dilivery Date: December 7, 2022",
+          price: 3499,
+          quantity: 1,
+     },
+];
 const CartDetailCard = () => {
+     const [totalFinalPrice, setTotalFinalPrice] = useState(null);
+     const [coupenCode, setCoupenCode] = useState("");
+     console.log(coupenCode);
+
+     function applyDiscount() {
+          if (coupenCode !== "" && coupenCode === "MASAI30") {
+               total = data.reduce((accum, item) => accum + item.price, 0);
+               console.log("temp", total);
+               let discount = total - (total * 30) / 100;
+               console.log("discount", discount);
+               setTotalFinalPrice(discount);
+          } else {
+               total = data.reduce((accum, item) => accum + item.price, 0);
+               setTotalFinalPrice(total);
+          }
+          console.log("coupenCode", coupenCode);
+     }
+     let total = data.reduce((accum, item) => accum + item.price, 0);
+     useEffect(() => {
+          setTotalFinalPrice(total);
+     }, []);
+
      return (
           <Box textAlign="left" padding="10px 50px">
                <Grid templateColumns="repeat(2, 1fr)" gap={2} w="full">
-                    <Text fontSize={"20px"} as={"b"}>
-                         Delivery Address
-                    </Text>
+                    {/* <Text fontSize={"20px"} as={"b"}>
+          Delivery Address
+        </Text> */}
 
-                    <GridItem pl="10px" mt={10} colSpan="2">
-                         <Text fontSize="15" as="b">
-                              1 x Military Fashion Watch - Black
-                         </Text>
-                         <Text mt="5px"> Dilivery Date: December 7, 2022</Text>
-                         <Text mt="5px">Price: Rs-3,499.00 </Text>
-                    </GridItem>
+                    {data.map((item, index) => (
+                         <GridItem
+                              key={index}
+                              pl="10px"
+                              mt={10}
+                              colSpan="2"
+                              border="1px solid #ccc"
+                         >
+                              <CartCard item={item} />
+                         </GridItem>
+                    ))}
+
                     <GridItem mt="3" colSpan={{ base: 2, md: 1 }}>
-                         <Box borderBottom={"1px solid black"} w="550px">
+                         <Box borderBottom={"1px solid black"} w="16rem">
                               <Text textAlign={"left"}>Edit Cart</Text>
                          </Box>
                     </GridItem>
@@ -66,8 +120,15 @@ const CartDetailCard = () => {
                     <br />
                     <Text>Got a Promotional Code? Use below:</Text>
                     <Box display="flex">
-                         <Input w="sm" placeholder="Promotional Code" />
-                         <Button bg="#F7941D">Apply Code</Button>
+                         <Input
+                              w="sm"
+                              placeholder="Promotional Code"
+                              defaultValue={"MASAI30"}
+                              onChange={(e) => setCoupenCode(e.target.value)}
+                         />
+                         <Button bg="#F7941D" onClick={applyDiscount}>
+                              Apply Code
+                         </Button>
                     </Box>
                </Box>
                <Box mt={"20px"} borderTop={"1px solid black"}>
@@ -79,7 +140,9 @@ const CartDetailCard = () => {
                          fontSize="15px"
                     >
                          <Text>Grand Total</Text>:
-                         <Text>Rs-3,499.00/- (Inclusive of All Taxes)</Text>
+                         <Text>
+                              ₹ {totalFinalPrice}/- (Inclusive of All Taxes)
+                         </Text>
                     </Box>
 
                     <Box display="flex">

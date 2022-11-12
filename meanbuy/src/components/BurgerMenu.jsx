@@ -11,9 +11,20 @@ import {TbLetterB} from "react-icons/tb"
 import {CgMenuGridO} from "react-icons/cg"
 import {SiBlogger} from "react-icons/si"
 import {TbLogout} from "react-icons/tb"
+import { useDispatch, useSelector } from "react-redux"
+import {logOut} from '../redux/authreducer/action'
+import { useNavigate } from "react-router-dom"
+
 function BurgerMenu() {
+  const dispatch = useDispatch();
+  const emaillocal = useSelector((store) => store.AuthReducer.userDetails.email)
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const firstField = React.useRef()
+    const firstField = React.useRef();
+    const navigate=useNavigate()
+    const handleLogout=()=>{
+      dispatch(logOut());
+      navigate("/login")
+    }
   
     return (
       <>
@@ -35,8 +46,7 @@ function BurgerMenu() {
             <DrawerBody>
               <Stack spacing='24px'>
                 <Box>
-                  <FormLabel htmlFor='username'>User Email</FormLabel>
-                  <h1>Atul</h1>
+                  <FormLabel htmlFor='username'>{emaillocal}</FormLabel>
                 </Box>
   
                 <Flex alignItems="center" gap="5px">
@@ -62,7 +72,7 @@ function BurgerMenu() {
                 </Flex>
                 
                 <Flex mt="5%" alignItems="center" gap="5px">
-                <TbLetterB color="red"/><Heading  size="md">About MeanBuy</Heading>
+                <TbLetterB color="red"/><Heading  size="md">About HappyKart</Heading>
                 </Flex>
                   
                 </Box>
@@ -76,8 +86,8 @@ function BurgerMenu() {
                 </Flex>
 
                 <hr/>
-                <Flex mt="5%" alignItems="center" gap="5px">
-                <TbLogout color="red"/><Heading  size="md">Logout</Heading>
+                <Flex mt="5%" alignItems="center" gap="5px" onClick={handleLogout} cursor={"pointer"}>
+                <TbLogout color="red" /><Heading  size="md">Logout</Heading>
                 </Flex>
 
 

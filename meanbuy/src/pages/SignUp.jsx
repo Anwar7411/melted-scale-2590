@@ -35,11 +35,11 @@ const SignUp = () => {
             <h1>Login or Create Account</h1>
             <form onSubmit={handleSubmit}>
                 <label >Email Address</label><br />
-                <input type="email" placeholder='Email Address' value={email} onChange={(e) => setEmail(e.target.value)} /><br />
+                <input type="email" class="Logininput" placeholder='Email Address' value={email} onChange={(e) => setEmail(e.target.value)} /><br />
                 <label >Password</label><br />
-                <input type="password" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} /><br />
+                <input type="password" class="Logininput" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} /><br />
                 <label >ConfirmPassword</label><br />
-                <input type="password" placeholder='Confirm Password' value={ConfirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} /><br />
+                <input type="password" placeholder='Confirm Password' class="Logininput" value={ConfirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} /><br />
                 <input class="inputsubmit" type="submit" value="SignUp" />
             </form>
                  <Link to="/login"><p class="Loginlink">Already have a HappyKart Account/Login</p><br /></Link>

@@ -20,32 +20,33 @@ import ThankYou from "../components/ThankYou";
 import Watchpage from "./Watchpage";
 import PrivateRoute from "./PrivateRoute";
 import PageNotFound from "./PageNotFound";
+import { Product } from "./Product";
 
 const MainRoutes = () => {
-     return (
-          <Routes>
-               <Route path="/login" element={<Login />}></Route>
-               <Route path="/SignUp" element={<SignUp />}></Route>
-               <Route path="/home/electronics" element={<Electronics />} />
-               <Route path="/clothing" element={<Clothing /> }></Route>
-               <Route path="/Watchpage" element={<Watchpage />} />
-               <Route path="/admindashboard" element={<Admindashboard />} />
-               <Route
-                    path="/vendorRegistrationForm"
-                    element={<VendorRegistrationForm />}
-               />
-               <Route path="/marchentLogin" element={<MarchentLogin />} />
-               <Route
-                    path="/productUploadForm"
-                    element={<ProductUploadMarchent />}
-               />
-               <Route path="/checkout" element={<Checkout />} />
-               <Route path="/cardpayment" element={<CardPayment />} />
-               <Route path="/deliverydetails" element={<DeliveryDetails />} />
-               <Route path="/thankyou" element={<ThankYou />} />
-               <Route path="*" element={<PageNotFound />} />
-          </Routes>
-     );
+  return (
+    <Routes>
+      <Route path="/login" element={<Login />}></Route>
+      <Route path="/SignUp" element={<SignUp />}></Route>
+      <Route path="/electronics" element={<Electronics />} />
+      <Route path="/electronics/:id" element={<Product />} />
+      <Route path="/clothing" element={<Clothing />}></Route>
+      <Route path="/clothing/:id" element={<Product />} />
+      <Route path="/Watchpage" element={<Watchpage />} />
+      <Route path="/Watchpage/:id" element={<Product />} />
+      <Route path="/admindashboard" element={<Admindashboard />} />
+      <Route
+        path="/vendorRegistrationForm"
+        element={<VendorRegistrationForm />}
+      />
+      <Route path="/marchentLogin" element={<MarchentLogin />} />
+      <Route path="/productUploadForm" element={<ProductUploadMarchent />} />
+      <Route path="/checkout" element={<Checkout />} />
+      <Route path="/cardpayment" element={<CardPayment />} />
+      <Route path="/deliverydetails" element={<DeliveryDetails />} />
+      <Route path="/thankyou" element={<ThankYou />} />
+      <Route path="*" element={<PageNotFound />} />
+    </Routes>
+  );
 };
 
 export default MainRoutes;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { stateList } from "./state";
 
@@ -48,11 +49,11 @@ const RegistrationForm = () => {
                </Header>
                <Title>
                     Already a HappyCart vendor? Please{" "}
-                    <a href="#">click here</a> to login
+                    <Link to="/marchentLogin">click here</Link> to login
                </Title>
                <Form>
                     <Input
-                         style={{ width: "300px" }}
+                         style={{ width: "250px" }}
                          placeholder="First Name"
                          name="fullName"
                          value={fullName}
@@ -123,6 +124,7 @@ const RegistrationForm = () => {
                     <Input
                          type={"number"}
                          placeholder="Pin"
+                         required
                          name="pin"
                          value={pin}
                          onChange={handleChange}
@@ -131,10 +133,11 @@ const RegistrationForm = () => {
                          type={"text"}
                          placeholder="Country"
                          name="country"
+                         required={true}
                          value={country}
                          onChange={handleChange}
                     />
-                    <Title>Have you sold online before?</Title>
+                    <Title >Have you sold online before?</Title>
                     <Title>
                          Do you have digital product information ready?
                     </Title>
@@ -146,7 +149,9 @@ const RegistrationForm = () => {
 const Wrapper = styled.div`
      display: flex;
      flex-direction: column;
-     align-items: flex-start;
+     align-items: center;
+     height:95vh;
+     justify-content:space-between;
 `;
 const Header = styled.div`
      border-bottom: 2px solid #455a64;
@@ -173,6 +178,7 @@ const Select = styled.select`
 
 const Title = styled.p`
      text-align: left;
+     margin-left:63px;
 `;
 const Button = styled.button`
      width: 200px;

@@ -8,7 +8,15 @@ import {
      Textarea,
      Button,
 } from "@chakra-ui/react";
+import axios from "axios";
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import {
+     addProductFailure,
+     addProductRequest,
+     addProductSuccess,
+} from "../redux/dashboardReducer/action";
 
 const initialState = {
      typeofBusiness: "",
@@ -40,15 +48,32 @@ const initialState = {
 };
 
 const ProductUploadForm = () => {
+     const isLoading = useSelector((state) => state.isLoading);
+     const dispatch = useDispatch();
+     const navigate = useNavigate();
      const [product, setProduct] = useState(initialState);
      const handleChange = (event) => {
           const { name, value } = event.target;
           const val = name === "minPrice" ? Number(value) : value;
           setProduct({ ...product, [name]: val });
      };
+     const addData = (payload) => {
+          console.log("payload:", payload);
+          dispatch(addProductRequest());
+          axios.post(
+               "https://json-mooker-server-abc.herokuapp.com/dashboard",
+               payload
+          )
+               .then((res) => {
+                    dispatch(addProductSuccess(res.data));
+                    navigate("/admindashboard");
+               })
+               .catch((e) => dispatch(addProductFailure(e)));
+     };
 
-     const handleClick = () => {
-          console.log(product);
+     const handleClick = (e) => {
+          addData(product);
+          setProduct({ ...product, initialState });
      };
 
      const {
@@ -135,7 +160,6 @@ const ProductUploadForm = () => {
                          </tr>
                          <tr>
                               <td>
-                                   {/* <Input placeholder="date" /> */}
                                    <Input
                                         placeholder="Select Date and Time"
                                         size="md"
@@ -167,7 +191,6 @@ const ProductUploadForm = () => {
                                    <Input w={"200px"} />
                               </td>
                               <td>
-                                   {/* <Input w={"200px"} /> */}
                                    <Select
                                         width={"200px"}
                                         h={30}
@@ -206,7 +229,6 @@ const ProductUploadForm = () => {
                     display="flex"
                     flexDirection={"column"}
                     alignItems={"center"}
-                    //  alignContent={"center"}
                >
                     <Stack>
                          <FormLabel>Title</FormLabel>
@@ -351,6 +373,7 @@ const ProductUploadForm = () => {
                                    <td>
                                         <Input
                                              placeholder="0"
+                                             type={"number"}
                                              name="minPrice"
                                              value={minPrice}
                                              onChange={handleChange}
@@ -359,6 +382,7 @@ const ProductUploadForm = () => {
                                    <td>
                                         {" "}
                                         <Input
+                                             type={"number"}
                                              name="yourMinPrice"
                                              value={yourMinPrice}
                                              onChange={handleChange}
@@ -366,6 +390,7 @@ const ProductUploadForm = () => {
                                    </td>
                                    <td>
                                         <Input
+                                             type={"number"}
                                              name="yourMaxPrice"
                                              value={yourMaxPrice}
                                              onChange={handleChange}
@@ -375,6 +400,7 @@ const ProductUploadForm = () => {
                                         <Input
                                              name="buyNowPrice"
                                              value={buyNowPrice}
+                                             type={"number"}
                                              onChange={handleChange}
                                         />
                                    </td>
@@ -434,7 +460,7 @@ const ProductUploadForm = () => {
                          />
                     </Box>
                </Box>
-               <Button onClick={handleClick}>Upload Product</Button>
+               <Button onClick={(e) => handleClick(e)}>Upload Product</Button>
           </Box>
      );
 };

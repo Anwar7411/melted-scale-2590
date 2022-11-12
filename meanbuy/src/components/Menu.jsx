@@ -4,6 +4,7 @@ import React from "react";
 import { ImCopy } from "react-icons/im";
 import { GoGraph } from "react-icons/go";
 import { MdSettingsOverscan } from "react-icons/md";
+import { TfiTruck } from "react-icons/tfi";
 import {
      Accordion,
      AccordionItem,
@@ -27,7 +28,11 @@ const Menu = () => {
                }}
           >
                <Box>
-                    <img style={{ width: "250px",height:"100px"}} src={logo} alt="" />
+                    <img
+                         style={{ width: "250px", height: "100px" }}
+                         src={logo}
+                         alt=""
+                    />
                </Box>
                <Box
                     style={{
@@ -60,8 +65,10 @@ const Menu = () => {
                                         color={"tomato"}
                                    >
                                         <Box flex="1" textAlign="left">
-                                             <WarningTwoIcon /> Importent
-                                             Information
+                                             <WarningTwoIcon
+                                                  fontSize={"30px"}
+                                             />{" "}
+                                             Importent Information
                                         </Box>
                                         <AccordionIcon />
                                    </AccordionButton>
@@ -104,8 +111,10 @@ const Menu = () => {
                                         color={"white"}
                                    >
                                         <Box flex="1" textAlign="left">
-                                             <WarningTwoIcon /> Product Online
-                                             Status
+                                             <WarningTwoIcon
+                                                  fontSize={"30px"}
+                                             />{" "}
+                                             Product Online Status
                                         </Box>
                                         <AccordionIcon />
                                    </AccordionButton>
@@ -120,7 +129,7 @@ const Menu = () => {
                                    </Link>
                               </AccordionPanel>
                          </AccordionItem>
-                         <Text color={"white"} textAlign="left">
+                         <Text p={5} mt={5} color={"white"} textAlign="left">
                               General
                          </Text>
                          <AccordionItem>
@@ -128,9 +137,16 @@ const Menu = () => {
                                    <AccordionButton
                                         backgroundColor={"#2A3F54"}
                                         color={"white"}
+                                       border=" none !important"
                                    >
-                                        <Box flex="1" textAlign="left">
-                                             Orders
+                                        <Box
+                                             w="100%"
+                                             display={"flex"}
+                                             alignItems={"center"}
+                                             justifyContent={"space-around"}
+                                        >
+                                             <TfiTruck />{" "}
+                                             <Text mr={"90px"}>Orders</Text>
                                         </Box>
                                         <AccordionIcon />
                                    </AccordionButton>
@@ -258,7 +274,10 @@ const Menu = () => {
                                              alignItems={"center"}
                                              justifyContent={"space-evenly"}
                                         >
-                                             <GoGraph /> Data
+                                             <GoGraph
+                                                  style={{ marginRight: "10px" }}
+                                             />{" "}
+                                             <Text mr={95}>Data</Text>
                                         </Box>
                                         <AccordionIcon />
                                    </AccordionButton>

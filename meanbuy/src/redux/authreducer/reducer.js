@@ -5,7 +5,7 @@ const initialstate = {
   isAuth: authgetData("isAuth") || false,
   isLoading: false,
   isError: false,
-  userDetails: authgetData("user") || { email: "", password: "" },
+  userDetails: authgetData("user") || {name:"", email: "", password: "" },
 };
 const reducer = (state = initialstate, action) => {
   const { type, payload } = action;

@@ -26,14 +26,7 @@ const MainRoutes = () => {
                <Route path="/login" element={<Login />}></Route>
                <Route path="/SignUp" element={<SignUp />}></Route>
                <Route path="/home/electronics" element={<Electronics />} />
-               <Route
-                    path="/clothing"
-                    element={
-                         <PrivateRoute>
-                              <Clothing />
-                         </PrivateRoute>
-                    }
-               ></Route>
+               <Route path="/clothing" element={<Clothing /> }></Route>
                <Route path="/" element={<Home />} />
                <Route path="/FlashSale" element={<FlashSale />} />
                <Route path="/BestDeal" element={<BestDeal />} />

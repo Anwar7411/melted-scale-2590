@@ -14,7 +14,9 @@ import {
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import { TbSearch } from "react-icons/tb";
+import { useSelector } from "react-redux";
 const Navbar = () => {
+     const name = useSelector((store) => store.AuthReducer.userDetails.name)
      return (
           <div>
                <div className="main">
@@ -83,10 +85,10 @@ const Navbar = () => {
                                    <GridItem colSpan={1}>SIGN UP</GridItem>
                               </Link>
                               <GridItem colSpan={2} color="red.500">
-                                   Welcome Guest
+                                 {name && name?name:"Welcome Guest"}
                               </GridItem>
                          </Grid>
-                         <div>
+                         <div style={{cursor:"pointer"}}>
                               <BurgerMenu />
                          </div>
                     </Grid>

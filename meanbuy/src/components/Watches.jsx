@@ -35,12 +35,12 @@ const Watches = () => {
         return(
           <div key={el.id}  >
             <div><img src={el.image} alt="img"/></div>
-            <Heading size="xs" color={"#455A64"}>{el.product_title_p}</Heading>
+            <Heading size="xs" color={"#455A64"}>{el.title}</Heading>
             <div style={{marginLeft:"70%",backgroundColor:"#3cc101",width:"20%",borderRadius:"50px",color:"white" }}>{el.rating}/5</div>
             <hr/>
             <Grid templateColumns='repeat(2, 1fr)' gap={6}>
-                <GridItem pl="4%" w='100px' h='10'  color='#008A00'fontSize={"18"} >{el.price_3}</GridItem>
-                <GridItem w='150px' h='10'  color='#008A00' fontSize={"18"} >{el.uptooff}</GridItem>
+                <GridItem pl="4%" w='100px' h='10'  color='#008A00'fontSize={"18"} >{el.price}</GridItem>
+                <GridItem w='150px' h='10'  color='#008A00' fontSize={"18"} >{el.off}</GridItem>
             </Grid>
             
 

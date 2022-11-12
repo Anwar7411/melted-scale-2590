@@ -17,6 +17,8 @@ import VendorRegistrationForm from "./VendorRegistrationForm";
 import CardPayment from "../components/CardPayment";
 import DeliveryDetails from "../components/DeliveryDetails";
 import ThankYou from "../components/ThankYou";
+import Watchpage from "./Watchpage";
+import PrivateRoute from "./PrivateRoute";
 
 const MainRoutes = () => {
      return (

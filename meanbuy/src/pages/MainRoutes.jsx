@@ -9,14 +9,9 @@ import Shop from './Shop'
 import Trending from './Trending'
 import Watchpage from "./Watchpage";
 import { Electronics } from "./Electronics";
-<<<<<<< Updated upstream
 import Clothing from "./Clothing";
 import PageNotFound from "./PageNotFound";
 import PrivateRoute from "./PrivateRoute";
-=======
-import Category from "../components/Category";
-
->>>>>>> Stashed changes
 const MainRoutes = () => {
   return (
     <Routes>
@@ -31,14 +26,7 @@ const MainRoutes = () => {
         <Route path="/Trending" element={<Trending/>}/>
 
         <Route path="/Watchpage" element={<Watchpage/>}/>
-<<<<<<< Updated upstream
       
-=======
-        <Route path="/Category" element={<Category/>}/>
-
-        
-      <Route path="*" element={<div>Page Not Found!</div>} />
->>>>>>> Stashed changes
     </Routes>
   );
 };

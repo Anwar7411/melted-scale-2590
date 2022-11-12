@@ -25,6 +25,7 @@ import { Product } from "./Product";
 const MainRoutes = () => {
   return (
     <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />}></Route>
       <Route path="/SignUp" element={<SignUp />}></Route>
       <Route path="/electronics" element={<Electronics />} />

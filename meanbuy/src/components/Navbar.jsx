@@ -100,7 +100,7 @@ const Navbar = () => {
                               <Link to="/home/electronics">Electronics</Link>
                          </div>
                          <div>
-                              <Link to="/Shop">Shop by Brand</Link>
+                              <Link to="/Watchpage">Watches</Link>
                          </div>
                          <div>
                               <Link to="/Trending">Trending</Link>

@@ -7,6 +7,7 @@
      width: 93%;
      border: 1px solid #d2d2d2;
      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     background-color: #f9f6f3;
 }
 .Login > h1 {
      color: #f79850;
@@ -27,6 +28,7 @@
      margin-bottom: 15px;
      height: 40px;
      margin-left: 12px;
+     border-radius: 10px;
      border: 1px solid #d2d2d2;
 }
 .inputsubmit {
@@ -36,7 +38,7 @@
      font-size: 18px;
      height: 40px;
      margin-left: 12px;
-     border-radius: 8px;
+     border-radius: 10px;
      cursor: pointer;
 }
 

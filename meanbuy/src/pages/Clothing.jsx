@@ -91,7 +91,7 @@ const Clothing = () => {
    return   <Spinner color='red.500'mb="800px" />
   }
   return (
-    <Flex gap={100} w="94%" m="auto" mt="20px" mb="50px">
+    <Flex gap={100} w="94%" m="auto" mt="20px" mb="50px" >
       <Box>
       <VStack>
         <Popover>
@@ -136,8 +136,8 @@ const Clothing = () => {
             <PopoverCloseButton />
             <PopoverBody>
             <VStack>
-             <Checkbox colorScheme='red' defaultChecked={gender.includes("Men")} value="Men" onChange={handleFilterGender}>Male</Checkbox>
-             <Checkbox colorScheme='red' defaultChecked={gender.includes("Female")} value="Female" onChange={handleFilterGender}>Female</Checkbox>
+             <Checkbox colorScheme='red' defaultChecked={gender.includes("Men")} value="Men" onChange={handleFilterGender}>Men</Checkbox>
+             <Checkbox colorScheme='red' defaultChecked={gender.includes("Women")} value="Women" onChange={handleFilterGender}>Women</Checkbox>
             </VStack>
             </PopoverBody>
           </PopoverContent>

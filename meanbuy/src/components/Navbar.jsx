@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import { BurgerMenu } from './BurgerMenu';
-import { Grid,InputRightElement ,Input,InputGroup ,GridItem} from "@chakra-ui/react"; 
+import { Grid,InputRightElement ,Input,InputGroup ,GridItem, Flex, Box, Divider} from "@chakra-ui/react"; 
 import "./Navbar.css"
 import logo from "../Assets/logo.png"
 import {TbSearch} from "react-icons/tb"
@@ -9,14 +9,20 @@ const Navbar = () => {
   return (
     <div>
       <div className='main'>
-      <Grid className='topnav' templateColumns="repeat(4,1fr)" justifyContent="space-between">
+      <Grid className='topnav' templateColumns="repeat(5,1fr)" justifyContent="space-between">
           <div ><Link to="/"><img className='logo' src={logo} alt="logo" /></Link></div>
-          <div>
+          <div >
           <InputGroup >
             <InputRightElement pointerEvents='none' children={<TbSearch color='gray.300' />}/>
               <Input type='tel' placeholder='Search' />
             </InputGroup>
           </div>
+          <Flex gap={2} ml="400px" w="50px" mr="100px">
+            <Box  fontSize="13px">Sellars Corner</Box><Divider height="22px" borderColor="red" orientation='vertical' />
+            <Box fontSize="13px">Feedback</Box><Divider height="22px" borderColor="red" orientation='vertical' />
+            <Box fontSize="13px">Blog</Box><Divider height="22px" borderColor="red" orientation='vertical' />
+            <Box fontSize="13px">Delivery Info</Box>
+          </Flex>
 
           <Grid
           // className='login'
@@ -29,7 +35,7 @@ const Navbar = () => {
                <GridItem colSpan={2} color="red.500" >Welcome Guest</GridItem>
 
             </Grid>
-            <div><BurgerMenu/></div>
+            <div ><BurgerMenu/></div>
       </Grid>
       
         <Grid className='botnav' templateColumns="repeat(5,100px)">

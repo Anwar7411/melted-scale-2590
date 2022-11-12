@@ -85,7 +85,7 @@ const Clothing = () => {
     setSearchParam(params)
   }, [color, type, gender,sortBy])
   return (
-    <Flex gap={100} w="94%" m="auto">
+    <Flex gap={100} w="94%" m="auto" mt="20px" mb="50px">
       <Box>
       <VStack>
         <Popover>
@@ -95,7 +95,7 @@ const Clothing = () => {
           <PopoverContent>
             <PopoverArrow />
             <PopoverCloseButton />
-            <PopoverBody>
+            <PopoverBody bg="gray.100">
             <VStack>
              <Checkbox colorScheme='red' defaultChecked={color.includes("Red")} value="Red" onChange={handleFilterColor}>Red</Checkbox>
              <Checkbox colorScheme='green' defaultChecked={color.includes("Green")} value="Green" onChange={handleFilterColor}>Green</Checkbox>

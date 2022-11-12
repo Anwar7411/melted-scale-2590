@@ -12,7 +12,14 @@ import { StarIcon } from "@chakra-ui/icons";
 import { Icon } from "@chakra-ui/react";
 import { BiRupee } from "react-icons/bi";
 
-export const ProductCard = () => {
+export const ProductCard = ({
+  top_image,
+  title,
+  ratings,
+  actual_rating,
+  actual_price,
+  discount,
+}) => {
   return (
     <Box
       margin="auto"
@@ -22,40 +29,39 @@ export const ProductCard = () => {
       // h="500px"
     >
       <Box w="100%">
-        <Image
-          w="100%"
-          src="https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjY1XC9QaW5rX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19"
-        />
+        <Image w="100%" src={top_image} />
       </Box>
       <Box h="20px" w="100%" mt="5px">
-        <Text align="center">350ml Electric Portable Juicing Cup</Text>
+        <Text color="#455a64" align="center">
+          {title}
+        </Text>
       </Box>
       <Box mt="5px">
         <Flex justifyContent="flex-end">
           <Badge
             variant="solid"
-            colorScheme="green"
+            backgroundColor="#3cc101"
             paddingLeft="12px"
             paddingRight="12px"
             borderRadius="5px"
           >
-            4.4/5
+            {`${actual_rating}${ratings}`}
             <StarIcon ml="5px" viewBox="0 2 24 24" />
           </Badge>
         </Flex>
       </Box>
       <Divider mt="5px" />
-      <Box mt="8px">
+      <Box mt="5px">
         <Flex alignItems="center">
-          <Box>
-            <Text color="orange.500">
-              <Icon as={BiRupee} viewBox="0 -10 24 24" />
-              4,999
+          <Box ml="12px">
+            <Text color="#f98d29" fontSize="20px">
+              <Icon as={BiRupee} viewBox="0 -8 24 24" />
+              {actual_price}
             </Text>
           </Box>
           <Spacer />
           <Box>
-            <Text color="green.500">UP TO 67% OFF</Text>
+            <Text color="#008a00">{discount}</Text>
           </Box>
         </Flex>
       </Box>

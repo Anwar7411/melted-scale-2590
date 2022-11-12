@@ -7,6 +7,9 @@ import {
      Input,
      InputGroup,
      GridItem,
+     Flex,
+     Box,
+     Divider,
 } from "@chakra-ui/react";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
@@ -17,7 +20,7 @@ const Navbar = () => {
                <div className="main">
                     <Grid
                          className="topnav"
-                         templateColumns="repeat(4,1fr)"
+                         templateColumns="repeat(5,1fr)"
                          justifyContent="space-between"
                     >
                          <div>
@@ -38,6 +41,31 @@ const Navbar = () => {
                                    <Input type="tel" placeholder="Search" />
                               </InputGroup>
                          </div>
+                         <Flex gap={2} ml="400px" w="50px" mr="100px">
+                              <Box fontSize="13px">
+                                   <Link to="/vendorRegistrationForm">
+                                        Seller's Corner
+                                   </Link>
+                              </Box>
+                              <Divider
+                                   height="22px"
+                                   borderColor="red"
+                                   orientation="vertical"
+                              />
+                              <Box fontSize="13px">Feedback</Box>
+                              <Divider
+                                   height="22px"
+                                   borderColor="red"
+                                   orientation="vertical"
+                              />
+                              <Box fontSize="13px">Blog</Box>
+                              <Divider
+                                   height="22px"
+                                   borderColor="red"
+                                   orientation="vertical"
+                              />
+                              <Box fontSize="13px">Delivery Info</Box>
+                         </Flex>
 
                          <Grid
                               // className='login'
@@ -46,17 +74,16 @@ const Navbar = () => {
                               w="150px"
                               ml="50%"
                          >
-                              <GridItem colSpan={1} justifySelf="right">
-                                   LOGIN /
-                              </GridItem>
-                              <GridItem colSpan={1}>SIGN UP</GridItem>
+                              <Link to="/login">
+                                   <GridItem colSpan={1} justifySelf="right">
+                                        LOGIN /
+                                   </GridItem>
+                              </Link>
+                              <Link to="/SignUp">
+                                   <GridItem colSpan={1}>SIGN UP</GridItem>
+                              </Link>
                               <GridItem colSpan={2} color="red.500">
                                    Welcome Guest
-                              </GridItem>
-                              <GridItem colSpan={2} color="red.500">
-                                   <Link to="/vendorRegistrationForm">
-                                        Seller's Corner
-                                   </Link>
                               </GridItem>
                          </Grid>
                          <div>
@@ -65,10 +92,10 @@ const Navbar = () => {
                     </Grid>
 
                     <Grid className="botnav" templateColumns="repeat(5,100px)">
-                         <div>Categories</div>
-                         <Link to="/FlashSale">Flash Sale</Link>
+                         {/* <div>Categories</div> */}
+                         <Link to="/Clothing">Clothing</Link>
                          <div>
-                              <Link to="/BestDeal">Best Deal</Link>
+                              <Link to="/home/electronics">Electronics</Link>
                          </div>
                          <div>
                               <Link to="/Shop">Shop by Brand</Link>

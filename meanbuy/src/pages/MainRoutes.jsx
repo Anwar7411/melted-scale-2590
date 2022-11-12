@@ -24,12 +24,21 @@ const MainRoutes = () => {
                <Route path="/login" element={<Login />}></Route>
                <Route path="/SignUp" element={<SignUp />}></Route>
                <Route path="/home/electronics" element={<Electronics />} />
-               <Route path="/clothing" element={<Clothing />}></Route>
+               <Route
+                    path="/clothing"
+                    element={
+                         <PrivateRoute>
+                              <Clothing />
+                         </PrivateRoute>
+                    }
+               ></Route>
                <Route path="/" element={<Home />} />
                <Route path="/FlashSale" element={<FlashSale />} />
                <Route path="/BestDeal" element={<BestDeal />} />
                <Route path="/Shop" element={<Shop />} />
                <Route path="/Trending" element={<Trending />} />
+
+               <Route path="/Watchpage" element={<Watchpage />} />
                <Route path="/admindashboard" element={<Admindashboard />} />
                <Route
                     path="/vendorRegistrationForm"

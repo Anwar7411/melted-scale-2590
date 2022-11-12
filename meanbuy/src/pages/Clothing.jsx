@@ -3,8 +3,8 @@ import { useDispatch, useSelector } from "react-redux"
 import { useSearchParams, useLocation } from 'react-router-dom';
 import { getCloths } from '../redux/appreducer/action';
 import { Box, Flex, Popover, PopoverTrigger, Button, PopoverContent,
-          PopoverArrow, PopoverCloseButton, PopoverHeader, PopoverBody, Checkbox, 
-          VStack, Radio, Stack, RadioGroup, Grid } from "@chakra-ui/react"
+          PopoverArrow, PopoverCloseButton, PopoverBody, Checkbox, 
+          VStack, Radio, RadioGroup, Grid, Spinner,  } from "@chakra-ui/react"
 import { useState } from "react"
 import ClothProduct from '../components/ClothProduct';
 
@@ -12,6 +12,7 @@ const Clothing = () => {
 
   const dispatch = useDispatch();
   const cloth = useSelector((store) => store.AppReducer.cloth);
+  const  isLoading = useSelector((store) => store.AppReducer.isLoading);
   const location = useLocation();
 
   const [searchParam, setSearchParam] = useSearchParams();
@@ -74,8 +75,7 @@ const Clothing = () => {
       dispatch(getCloths(quaryParam))
     }
   }, [location.search])
-
-  console.log("cloth",cloth)
+ 
   React.useEffect(() => {
     const params = {};
     color && (params.color = color);
@@ -84,6 +84,12 @@ const Clothing = () => {
     sortBy && (params.sortBy = sortBy);
     setSearchParam(params)
   }, [color, type, gender,sortBy])
+
+  console.log("isLoading",isLoading);
+  
+  if(isLoading==true){ 
+   return   <Spinner color='red.500'mb="800px" />
+  }
   return (
     <Flex gap={100} w="94%" m="auto" mt="20px" mb="50px">
       <Box>

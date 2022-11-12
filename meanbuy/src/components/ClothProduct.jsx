@@ -15,7 +15,6 @@ import {
 import React from 'react'
 
 const ClothProduct = ({item}) => {
-    console.log("item",item)
   return (
     <GridItem boxShadow='xl'>
          <Box w="100%">

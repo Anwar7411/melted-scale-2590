@@ -19,6 +19,7 @@ import DeliveryDetails from "../components/DeliveryDetails";
 import ThankYou from "../components/ThankYou";
 import Watchpage from "./Watchpage";
 import PrivateRoute from "./PrivateRoute";
+import PageNotFound from "./PageNotFound";
 
 const MainRoutes = () => {
      return (
@@ -27,12 +28,6 @@ const MainRoutes = () => {
                <Route path="/SignUp" element={<SignUp />}></Route>
                <Route path="/home/electronics" element={<Electronics />} />
                <Route path="/clothing" element={<Clothing /> }></Route>
-               <Route path="/" element={<Home />} />
-               <Route path="/FlashSale" element={<FlashSale />} />
-               <Route path="/BestDeal" element={<BestDeal />} />
-               <Route path="/Shop" element={<Shop />} />
-               <Route path="/Trending" element={<Trending />} />
-
                <Route path="/Watchpage" element={<Watchpage />} />
                <Route path="/admindashboard" element={<Admindashboard />} />
                <Route
@@ -48,7 +43,7 @@ const MainRoutes = () => {
                <Route path="/cardpayment" element={<CardPayment />} />
                <Route path="/deliverydetails" element={<DeliveryDetails />} />
                <Route path="/thankyou" element={<ThankYou />} />
-               <Route path="*" element={<div>Page Not Found!</div>} />
+               <Route path="*" element={<PageNotFound />} />
           </Routes>
      );
 };

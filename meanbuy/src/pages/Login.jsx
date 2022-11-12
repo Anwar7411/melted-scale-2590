@@ -21,7 +21,7 @@ const Login = () => {
                 setLoginPassword("");
                
             }else{
-                alert("User Not Found");
+                alert("User Not Found please complete SignUp");
                 setLoginEmail("");
                 setLoginPassword("");
             }

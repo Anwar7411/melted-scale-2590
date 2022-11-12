@@ -20,7 +20,7 @@ const loginFailure=()=>{
 const logOut=()=>{
     return{
         type:types.Log_Out,
-        payload:{ email: "", password: "" }
+        payload:{name:"", email: "", password: "" }
     }
 }
 

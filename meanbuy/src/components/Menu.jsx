@@ -13,6 +13,7 @@ import {
      Text,
 } from "@chakra-ui/react";
 import { WarningTwoIcon } from "@chakra-ui/icons";
+import logo from "../Assets/logo.png";
 
 const Menu = () => {
      return (
@@ -26,23 +27,19 @@ const Menu = () => {
                }}
           >
                <Box>
-                    <img
-                          style={{ width: "200px" }}
-                         src="https://merchant.meanbuy.in/assets/img/india/logo/baselogo.png"
-                         alt=""
-                    />
+                    <img style={{ width: "250px",height:"100px"}} src={logo} alt="" />
                </Box>
                <Box
                     style={{
                          display: "flex",
-                         marginTop:"10px",
+                         marginTop: "10px",
                          alignItems: "center",
                          justifyContent: "space-between",
                     }}
                >
                     <Box>
                          <img
-                              style={{ width: "50px" ,borderRadius:"50%"}}
+                              style={{ width: "50px", borderRadius: "50%" }}
                               src="https://merchant.meanbuy.in/assets/Merchant/images/profiles/india.jpg"
                               alt="Welcom Admin"
                          />

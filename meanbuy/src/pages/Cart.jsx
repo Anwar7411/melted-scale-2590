@@ -22,13 +22,13 @@ export const Cart = () => {
   }, []);
 
   return (
-    <Box pl="80px" pr="80px" pt="20px">
-      <Container h="100vh" maxW="container.xl">
+    <Box pl="80px" pr="80px" pt="20px" mt="150px" mb="40px">
+      <Container  maxW="container.xl">
         <HStack spacing={4}>
           <Box
             boxShadow="rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
             w="75%"
-            h="100vh"
+          
           >
             <Box backgroundColor="#f2f2f2" pt="10px" pb="10px">
               <Grid templateColumns="21% 50% 13% 13%" gap={2}>

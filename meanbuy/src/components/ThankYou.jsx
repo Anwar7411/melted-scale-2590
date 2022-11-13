@@ -26,6 +26,8 @@ const ThankYou = () => {
                justifyContent="center"
                textAlign="center"
                height="200px"
+               mt="250px"
+               mb="800px"
           >
                <AlertIcon boxSize="40px" mr={0} />
                <AlertTitle mt={4} mb={1} fontSize="lg">

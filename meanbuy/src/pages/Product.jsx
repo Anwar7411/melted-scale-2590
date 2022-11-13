@@ -68,7 +68,7 @@ export const Product = () => {
   };
 
   return (
-    <Container maxW="container.xl" mb="80px">
+    <Container maxW="container.xl" mb="80px" mt="150px">
       <Flex
         gap="50px"
         flexDirection={{

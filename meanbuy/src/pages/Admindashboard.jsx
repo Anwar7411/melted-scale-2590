@@ -20,6 +20,7 @@ const Wrapper = styled.div`
      margin: auto;
      display: flex;
      justify-content: space-between;
+     margin-top: 150px;
 `;
 const LeftMenu = styled.div`
      align-items: left;

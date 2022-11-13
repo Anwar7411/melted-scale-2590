@@ -18,12 +18,13 @@ const Checkout = () => {
 };
 
 const Wrapper = styled.div`
-     //   border: 1px solid red;
+    
      width: 85%;
      margin: 0 auto;
      display: flex;
+     margin-top:150px;
      flex-direction: row;
-     //   height: 100vh;
+   
 `;
 const WrapperCartShow = styled.div`
      width: 50%;

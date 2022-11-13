@@ -9,6 +9,8 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
+import Checkout from "../pages/Checkout";
 
 export const CartCheckoutDetailsCard = (cartArray) => {
   console.log(cartArray);
@@ -53,13 +55,13 @@ export const CartCheckoutDetailsCard = (cartArray) => {
         <Divider pt="16px" />
         <VStack align="start" pt="16px">
           <Text as="b" color="#455a64">
-            Cart Total:
+            Cart Total:{cartArray.cartArray.reduce((pv, cv) => pv + Number(cv.price), 0)}
           </Text>
           <Text color="gray" fontSize="16px">
             Or 3 interest free payments of
           </Text>
           <HStack pb="20px">
-            <Text as="b">₹2999.00</Text>
+            {/* <Text as="b">₹2999.00</Text> */}
             <Text color="gray" fontSize="16px">
               with
             </Text>
@@ -67,7 +69,7 @@ export const CartCheckoutDetailsCard = (cartArray) => {
               <Image src="https://d64lkarmo2mrq.cloudfront.net/icons/89165818.png" />
             </Box>
           </HStack>
-          <Button
+        <Link to="/checkout"><Button
             colorScheme="orange"
             variant="solid"
             borderRadius="3px"
@@ -76,7 +78,7 @@ export const CartCheckoutDetailsCard = (cartArray) => {
             w="240px"
           >
             BUY NOW
-          </Button>
+          </Button></Link>
         </VStack>
       </Box>
       <Box></Box>

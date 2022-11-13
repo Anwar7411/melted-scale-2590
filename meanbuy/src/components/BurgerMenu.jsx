@@ -10,13 +10,6 @@ import {
      Stack,
      Box,
      FormLabel,
-     Input,
-     InputGroup,
-     InputLeftAddon,
-     InputRightAddon,
-     Select,
-     Textarea,
-     DrawerFooter,
      Heading,
      Flex,
 } from "@chakra-ui/react";
@@ -41,6 +34,7 @@ function BurgerMenu() {
      const emaillocal = useSelector(
           (store) => store.AuthReducer.userDetails.email
      );
+     const name = useSelector((store) => store.AuthReducer.userDetails.name);
      const { isOpen, onOpen, onClose } = useDisclosure();
      const firstField = React.useRef();
      const navigate = useNavigate();
@@ -65,7 +59,7 @@ function BurgerMenu() {
                     <DrawerContent>
                          <DrawerCloseButton />
                          <DrawerHeader borderBottomWidth="1px">
-                              Uesr account
+                              {name && name?name:"User Account"}
                          </DrawerHeader>
 
                          <DrawerBody>

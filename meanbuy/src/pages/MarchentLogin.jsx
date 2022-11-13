@@ -30,7 +30,7 @@ const MarchentLogin = () => {
                }
                w={"full"}
                h={"100vh"}
-               border="1px solid red"
+               mt="150px"
           >
                <Box
                     width={"350px"}

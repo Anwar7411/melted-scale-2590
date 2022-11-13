@@ -38,7 +38,7 @@ const Login = () => {
     }
     return (
         <div style={{paddingTop:"10%"}} class="Login">
-            <h1 >Login or Create Account</h1>
+            <h1 id='loginh1'>Login or Create Account</h1>
             <form onSubmit={handleSubmit}>
                 <label>Email Address</label><br />
                 <input type="email" class="Logininput" placeholder='Email Address' value={loginEmail} onChange={(e) => setLoginEmail(e.target.value)} /><br />

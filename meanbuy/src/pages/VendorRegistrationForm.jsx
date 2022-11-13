@@ -5,7 +5,7 @@ import StepsSection from "../components/StepsSection";
 
 const VendorRegistrationForm = () => {
      return (
-          <Wrapper>
+          <Wrapper >
                <LeftSection>
                     <StepsSection />
                </LeftSection>
@@ -21,6 +21,7 @@ const Wrapper = styled.div`
      width: 90%;
      display: flex;
      justify-content: space-between;
+     margin-top:150px;
 `;
 const LeftSection = styled.div`
      width: 50%;

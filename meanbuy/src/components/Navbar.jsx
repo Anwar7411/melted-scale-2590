@@ -97,7 +97,7 @@ const Navbar = () => {
                               <Link to="/SignUp">
                                    <GridItem colSpan={1}>SIGN UP</GridItem>
                               </Link>
-                              <GridItem colSpan={2} color="red.500">
+                              <GridItem colSpan={2} color="red.500" ml="20px">
                                  {isAuth && name?name:"Welcome Guest"}
                               </GridItem>
                          </Grid>
@@ -121,18 +121,23 @@ const Navbar = () => {
                          </div>
                     </Grid>
 
-                    <Grid className="botnav" templateColumns="repeat(5,100px)">
-                         <Popover><Recomandation/></Popover>
-                         <Link to="/Clothing">Clothing</Link>
-                         <div>
+                    <Grid className="botnav" templateColumns="repeat(5,100px)" gap={3}>
+                        <GridItem >
+                            <Popover><Recomandation/></Popover>
+                        </GridItem>
+                         <GridItem ml={4}>
+                                <Link to="/Clothing">Clothing</Link>
+                         </GridItem>
+                       
+                         <GridItem>
                               <Link to="/home/electronics">Electronics</Link>
-                         </div>
-                         <div>
+                         </GridItem>
+                         <GridItem>
                               <Link to="/Watchpage">Watches</Link>
-                         </div>
-                         <div>
+                         </GridItem>
+                         <GridItem>
                               <Link to="/Trending">Trending</Link>
-                         </div>
+                         </GridItem>
                     </Grid>
                     
                </div>

@@ -139,12 +139,9 @@ export const Product = () => {
                   </Text>
                 </Box>
                 <Box>
-                  <Text
-                    as="s"
-                    ml="-50px"
-                    color="gray"
-                    fontWeight="semibold"
-                  ></Text>
+                  <Text as="s" ml="-50px" color="gray" fontWeight="semibold">
+                    {prodData.strikeOff}
+                  </Text>
                 </Box>
                 <Box>
                   <Text color="#008a00" fontSize="14px">

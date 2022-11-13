@@ -3,10 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./Login";
 import SignUp from "./SignUp";
 import Home from "./Home";
-import FlashSale from "./FlashSale";
-import BestDeal from "./BestDeal";
-import Shop from "./Shop";
-import Trending from "./Trending";
 import { Electronics } from "./Electronics";
 import Clothing from "./Clothing";
 import MarchentLogin from "./MarchentLogin";
@@ -24,6 +20,7 @@ import { Product } from "./Product";
 import FeedbackForm from "./FeedbackForm";
 
 const MainRoutes = () => {
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -50,6 +47,7 @@ const MainRoutes = () => {
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
+
 };
 
 export default MainRoutes;

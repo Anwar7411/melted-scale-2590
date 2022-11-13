@@ -1,5 +1,5 @@
 import { EmailIcon, PhoneIcon } from "@chakra-ui/icons";
-import { Box, Button, GridItem, Text } from "@chakra-ui/react";
+import { Box, Button, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { authgetData } from "../redux/utilies/authLocalData";
@@ -176,35 +176,14 @@ const DeliveryDetails = () => {
                               <Text>By Card: {cardNumber}</Text>
                          </Box>
                     </Box>
-                    <Box p={5} borderBottom={"1px solid #ccc"}>
-                         <Text
-                              fontWeight={"bold"}
-                              height={"25px"}
-                              textAlign={"left"}
-                              color="#ccc"
-                         >
-                              {" "}
-                              Item in this order
-                         </Text>
-                         <Box
-                              display={"flex"}
-                              flexDirection={"column"}
-                              alignItems="flex-start"
-                         >
-                              <GridItem colSpan="2">
-                                   <Text fontSize="15" as="b">
-                                        1 x Military Fashion Watch - Black
-                                   </Text>
-                                   <Text mt="5px">
-                                        {" "}
-                                        Dilivery Date: December 7, 2022
-                                   </Text>
-                                   <Text mt="5px">Price: Rs-3,499.00 </Text>
-                              </GridItem>
-                              <Button onClick={handleClick}>
-                                   Continue Shopping
-                              </Button>
-                         </Box>
+                    <Box
+                         display={"flex"}
+                         flexDirection={"column"}
+                         alignItems="flex-start"
+                    >
+                         <Button mt={10} ml={100} onClick={handleClick}>
+                              Continue Shopping
+                         </Button>
                     </Box>
                </Box>
           </Box>

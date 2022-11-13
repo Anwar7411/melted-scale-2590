@@ -8,51 +8,28 @@ import {
      Image,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import { authsaveData } from "../redux/utilies/authLocalData";
+import { authsaveData, authgetData } from "../redux/utilies/authLocalData";
 import CartCard from "./CartCard";
-const data = [
-     {
-          id: 1,
-          title: "Military Fashion Watch - Black",
-          date: " December 7, 2022",
-          price: 3499,
-     },
-     {
-          id: 2,
-          title: "Military Fashion Watch - Black",
-          date: "Dilivery Date: December 7, 2022",
-          price: 3499,
-     },
-     {
-          id: 3,
-          title: "Military Fashion Watch - Black",
-          date: "Dilivery Date: December 7, 2022",
-          price: 3499,
-     },
-     {
-          id: 4,
-          title: "Military Fashion Watch - Black",
-          date: "Dilivery Date: December 7, 2022",
-          price: 3499,
-          quantity: 1,
-     },
-];
+
 const CartDetailCard = () => {
+     let data = authgetData("user_cart_items");
+     console.log("data:", data);
      const [totalFinalPrice, setTotalFinalPrice] = useState(null);
+     const [originalPrice, setOriginalPrice] = useState(null);
      const [coupenCode, setCoupenCode] = useState("");
      console.log(coupenCode);
-     let total = data.reduce((accum, item) => accum + item.price, 0);
+     let total = data?.reduce((accum, item) => accum + item.price, 0) || 0;
 
      function applyDiscount() {
           if (coupenCode !== "" && coupenCode === "MASAI30") {
-               total = data.reduce((accum, item) => accum + item.price, 0);
+               total = data?.reduce((accum, item) => accum + item.price, 0);
                console.log("temp", total);
                let discount = total - (total * 30) / 100;
                console.log("discount", discount);
                setTotalFinalPrice(discount);
                authsaveData("finalPrice", discount);
           } else {
-               total = data.reduce((accum, item) => accum + item.price, 0);
+               total = data?.reduce((accum, item) => accum + item.price, 0);
                setTotalFinalPrice(total);
                authsaveData("finalPrice", total);
           }
@@ -60,6 +37,7 @@ const CartDetailCard = () => {
      }
      useEffect(() => {
           setTotalFinalPrice(total);
+          setOriginalPrice(total);
           authsaveData("finalPrice", total);
      }, []);
 
@@ -70,7 +48,7 @@ const CartDetailCard = () => {
           Delivery Address
         </Text> */}
 
-                    {data.map((item, index) => (
+                    {data?.map((item, index) => (
                          <GridItem
                               key={index}
                               pl="10px"
@@ -106,8 +84,7 @@ const CartDetailCard = () => {
                     <Box display="flex" justifyContent="space-between">
                          <Text w="50">Sub Total </Text>:
                          <Text w="50" alignItems="flex-start">
-                              {" "}
-                              {"Rs-3,499.00"}
+                              ₹ {originalPrice}
                          </Text>
                     </Box>
                     <Box display="flex" justifyContent="space-between">
@@ -119,7 +96,7 @@ const CartDetailCard = () => {
                     </Box>
 
                     <Box display="flex" justifyContent="space-between">
-                         <Text>COD Fee</Text>:<Text>: Rs-0</Text>
+                         <Text>COD Fee</Text>:<Text>: ₹ 0 /- </Text>
                     </Box>
                     <br />
                     <Text>Got a Promotional Code? Use below:</Text>

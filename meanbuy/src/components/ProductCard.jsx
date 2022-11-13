@@ -14,19 +14,18 @@ import { BiRupee } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 export const ProductCard = ({
+  id,
   top_image,
   title,
-  ratings,
-  actual_rating,
-  actual_price,
-  discount,
+  rating,
+  price,
+  pathname,
 }) => {
   return (
-    <Link>
+    <Link to={`/electronics/${id}`}>
       <Box
         margin="auto"
         marginTop="20px"
-        border="1px solid red"
         w="300px"
         // h="500px"
       >
@@ -47,7 +46,7 @@ export const ProductCard = ({
               paddingRight="12px"
               borderRadius="5px"
             >
-              {`${actual_rating}${ratings}`}
+              {`${rating}`}
               <StarIcon ml="5px" viewBox="0 2 24 24" />
             </Badge>
           </Flex>
@@ -58,12 +57,12 @@ export const ProductCard = ({
             <Box ml="12px">
               <Text color="#f98d29" fontSize="20px">
                 <Icon as={BiRupee} viewBox="0 -8 24 24" />
-                {actual_price}
+                {price}
               </Text>
             </Box>
             <Spacer />
             <Box>
-              <Text color="#008a00">{discount}</Text>
+              <Text color="#008a00">UP TO 68% OFF</Text>
             </Box>
           </Flex>
         </Box>

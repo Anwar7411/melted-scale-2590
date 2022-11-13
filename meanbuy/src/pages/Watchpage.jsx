@@ -1,8 +1,17 @@
+import { Spinner } from "@chakra-ui/react";
 import React from "react";
 import style from "styled-components";
 import FilterSort from "../components/FilterSort";
 import Watches from "../components/Watches";
+import { useDispatch, useSelector } from "react-redux";
+
 const Watchpage = () => {
+     const isLoading = useSelector((store) => store.AppReducer.isLoading);
+
+     if (isLoading === true) {
+          return <Spinner color='red.500' mb="800px"  mt="200px" ml="50%" />;
+        }
+      
 
      return (
           <div>
@@ -19,20 +28,17 @@ const Watchpage = () => {
 };
 
 const Wrapper = style.div`
-
+margin-top:10px;
 display:flex;
-border: 1px solid red;
 min-height:100vh;
 margin-bottom:20px;
 padding-top:8%;
 `
 const WrapperFilterSort = style.div`
 width:200px;
-border:1px solid black;
 `
 const WrapperWatches = style.div`
 width:100%;
-border: 1px solid blue;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,max-content));
 justify-content:center;

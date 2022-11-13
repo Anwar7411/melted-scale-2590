@@ -26,7 +26,7 @@ const MainRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />}></Route>
       <Route path="/SignUp" element={<SignUp />}></Route>
-      <Route path="/electronics" element={<Electronics />} />
+      <Route path="/home/electronics" element={<Electronics />} />
       <Route path="/electronics/:id" element={<Product />} />
       <Route path="/clothing" element={<Clothing />}></Route>
       <Route path="/products/:id" element={<Product />} />
@@ -39,8 +39,8 @@ const MainRoutes = () => {
       />
       <Route path="/marchentLogin" element={<MarchentLogin />} />
       <Route path="/productUploadForm" element={<ProductUploadMarchent />} />
-      <Route path="/checkout" element={<Checkout />} />
-      <Route path="/cardpayment" element={<CardPayment />} />
+      <Route path="/checkout" element={<PrivateRoute><Checkout /></PrivateRoute>} />
+      <Route path="/cardpayment" element={<PrivateRoute><CardPayment /></PrivateRoute>} />
       <Route path="/deliverydetails" element={<DeliveryDetails />} />
       <Route path="/thankyou" element={<ThankYou />} />
       <Route path="/FeedbackForm" element={<FeedbackForm />} />

@@ -88,10 +88,10 @@ const Clothing = () => {
   console.log("isLoading",isLoading);
   
   if(isLoading==true){ 
-   return   <Spinner color='red.500'mb="800px" />
+   return   <Spinner color='red.500' mb="800px"  mt="200px" ml="50%" />
   }
   return (
-    <Flex gap={100} w="94%" m="auto" mt="20px" mb="50px" >
+    <Flex gap={100} w="94%" m="auto" mt="150px" mb="50px" >
       <Box>
       <VStack>
         <Popover>
@@ -118,7 +118,7 @@ const Clothing = () => {
           <PopoverContent>
             <PopoverArrow />
             <PopoverCloseButton />
-            <PopoverBody>
+            <PopoverBody bg="gray.100">
             <VStack>
              <Checkbox colorScheme='red' defaultChecked={type.includes("t-shirt")} value="t-shirt" onChange={handleFilterType}>T-Shirt</Checkbox>
              <Checkbox colorScheme='red' defaultChecked={type.includes("Shirt")} value="Shirt" onChange={handleFilterType}>Shirt</Checkbox>
@@ -134,7 +134,7 @@ const Clothing = () => {
           <PopoverContent>
             <PopoverArrow />
             <PopoverCloseButton />
-            <PopoverBody>
+            <PopoverBody bg="gray.100">
             <VStack>
              <Checkbox colorScheme='red' defaultChecked={gender.includes("Men")} value="Men" onChange={handleFilterGender}>Men</Checkbox>
              <Checkbox colorScheme='red' defaultChecked={gender.includes("Women")} value="Women" onChange={handleFilterGender}>Women</Checkbox>
@@ -150,7 +150,7 @@ const Clothing = () => {
           <PopoverContent>
             <PopoverArrow />
             <PopoverCloseButton />
-            <PopoverBody>
+            <PopoverBody bg="gray.100">
               <RadioGroup gap={3}>
              <Radio size='md' name="sortBy" defaultChecked={sortBy=="asc"} value="asc" colorScheme='red' onChange={handleSortBy} >Ascending</Radio>
              <Radio size='md' name="sortBy"  defaultChecked={sortBy=="desc"} value="desc" colorScheme='red' onChange={handleSortBy} >Descending</Radio>

@@ -30,7 +30,7 @@ const CardPayment = () => {
      }, []);
 
      return (
-          <Box>
+          <Box mt="150px">
                <Box
                     p={5}
                     height={"500px"}

@@ -18,6 +18,7 @@ import PrivateRoute from "./PrivateRoute";
 import PageNotFound from "./PageNotFound";
 import { Product } from "./Product";
 import FeedbackForm from "./FeedbackForm";
+import { Cart } from "./Cart";
 
 const MainRoutes = () => {
   return (
@@ -57,6 +58,7 @@ const MainRoutes = () => {
       <Route path="/deliverydetails" element={<DeliveryDetails />} />
       <Route path="/thankyou" element={<ThankYou />} />
       <Route path="/FeedbackForm" element={<FeedbackForm />} />
+      <Route path="/cart" element={<Cart />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

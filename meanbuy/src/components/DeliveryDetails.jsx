@@ -33,6 +33,7 @@ const DeliveryDetails = () => {
                justifyContent="space-between"
                width={"60%"}
                margin="auto"
+               mt="150px"
           >
                <Box
                     mt={10}

@@ -147,6 +147,7 @@ const ProductUploadForm = () => {
                          alignItems: "center",
                          justifyContent: "space-between",
                          backgroundColor: "#EDEDED",
+                          marginTop:"150px"
                     }}
                >
                     <HamburgerIcon boxSize={10} />

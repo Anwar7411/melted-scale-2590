@@ -21,20 +21,43 @@ import Watchpage from "./Watchpage";
 import PrivateRoute from "./PrivateRoute";
 
 const MainRoutes = () => {
-  return (
-    <Routes>
-      <Route path="/login" element={<Login />}></Route>
-      <Route path="/SignUp" element={<SignUp />}></Route>
-      <Route path="/home/electronics" element={<Electronics />} />
-      <Route path="/clothing" element={<Clothing />}></Route>
-      <Route path="/" element={<Home />} />
-      <Route path="/FlashSale" element={<FlashSale />} />
-      <Route path="/BestDeal" element={<BestDeal />} />
-      <Route path="/Shop" element={<Shop />} />
-      <Route path="/Trending" element={<Trending />} />
-      <Route path="*" element={<div>Page Not Found!</div>} />
-    </Routes>
-  );
+     return (
+          <Routes>
+               <Route path="/login" element={<Login />}></Route>
+               <Route path="/SignUp" element={<SignUp />}></Route>
+               <Route path="/home/electronics" element={<Electronics />} />
+               <Route
+                    path="/clothing"
+                    element={
+                         <PrivateRoute>
+                              <Clothing />
+                         </PrivateRoute>
+                    }
+               ></Route>
+               <Route path="/" element={<Home />} />
+               <Route path="/FlashSale" element={<FlashSale />} />
+               <Route path="/BestDeal" element={<BestDeal />} />
+               <Route path="/Shop" element={<Shop />} />
+               <Route path="/Trending" element={<Trending />} />
+
+               <Route path="/Watchpage" element={<Watchpage />} />
+               <Route path="/admindashboard" element={<Admindashboard />} />
+               <Route
+                    path="/vendorRegistrationForm"
+                    element={<VendorRegistrationForm />}
+               />
+               <Route path="/marchentLogin" element={<MarchentLogin />} />
+               <Route
+                    path="/productUploadForm"
+                    element={<ProductUploadMarchent />}
+               />
+               <Route path="/checkout" element={<Checkout />} />
+               <Route path="/cardpayment" element={<CardPayment />} />
+               <Route path="/deliverydetails" element={<DeliveryDetails />} />
+               <Route path="/thankyou" element={<ThankYou />} />
+               <Route path="*" element={<div>Page Not Found!</div>} />
+          </Routes>
+     );
 };
 
 export default MainRoutes;

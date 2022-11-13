@@ -22,7 +22,7 @@ const Menu = () => {
                style={{
                     display: "flex",
                     flexDirection: "column",
-                    width: "250px",
+                    width: "280px",
                     backgroundColor: "#2A3F54",
                     height: "300vh",
                }}
@@ -137,7 +137,7 @@ const Menu = () => {
                                    <AccordionButton
                                         backgroundColor={"#2A3F54"}
                                         color={"white"}
-                                       border=" none !important"
+                                        border=" none !important"
                                    >
                                         <Box
                                              w="100%"
@@ -275,7 +275,9 @@ const Menu = () => {
                                              justifyContent={"space-evenly"}
                                         >
                                              <GoGraph
-                                                  style={{ marginRight: "10px" }}
+                                                  style={{
+                                                       marginRight: "10px",
+                                                  }}
                                              />{" "}
                                              <Text mr={95}>Data</Text>
                                         </Box>
@@ -313,7 +315,7 @@ const Menu = () => {
                               </AccordionPanel>
                          </AccordionItem>
                          <Text color={"white"} textAlign="left">
-                              ADDITIONAL PAGES
+                              <Text ml={50}>ADDITIONAL PAGES</Text>
                          </Text>
                          <AccordionItem>
                               <h2>

@@ -13,7 +13,7 @@ import {
 import React, { useState } from "react";
 import PaymentDetails from "./PaymentDetails";
 import { stateList } from "./state";
-import { authgetData, authsaveData } from "../redux/utilies/authLocalData";
+import { authsaveData } from "../redux/utilies/authLocalData";
 import { useNavigate } from "react-router-dom";
 const initState = {
      fullname: "",
@@ -47,8 +47,18 @@ const DeliveryAddressContainer = () => {
           pincode,
      } = formData;
      const handleSubmit = () => {
-          // console.log(formData);
           authsaveData("address", formData);
+          setFormData({
+               fullname: "",
+               phone: "",
+               email: "",
+               address1: "",
+               address2: "",
+               country: "",
+               state: "",
+               city: "",
+               pincode: "",
+          });
           navigate("/cardpayment");
      };
 
@@ -118,11 +128,6 @@ const DeliveryAddressContainer = () => {
                          <GridItem colSpan="2">
                               <FormControl>
                                    <FormLabel>Name</FormLabel>
-                                   {/* <Input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Adress 1"
-                                   /> */}
                                    <Input
                                         name="fullname"
                                         required
@@ -244,8 +249,6 @@ const DeliveryAddressContainer = () => {
                               <br />
 
                               <Checkbox
-                                   // onChange={handleChange}
-                                   // name="address"
                                    size="sm"
                                    colorScheme="orange"
                                    defaultChecked

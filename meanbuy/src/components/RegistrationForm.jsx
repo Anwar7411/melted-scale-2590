@@ -26,6 +26,19 @@ const RegistrationForm = () => {
 
      const handleSubmit = () => {
           console.log(formData);
+          setFormData({
+               fullName: "",
+               lastName: "",
+               phone: "",
+               email: "",
+               businessName: "",
+               address1: "",
+               address2: "",
+               city: "",
+               state: "",
+               pin: "",
+               country: "",
+          });
      };
 
      const {
@@ -137,7 +150,7 @@ const RegistrationForm = () => {
                          value={country}
                          onChange={handleChange}
                     />
-                    <Title >Have you sold online before?</Title>
+                    <Title>Have you sold online before?</Title>
                     <Title>
                          Do you have digital product information ready?
                     </Title>
@@ -150,8 +163,8 @@ const Wrapper = styled.div`
      display: flex;
      flex-direction: column;
      align-items: center;
-     height:95vh;
-     justify-content:space-between;
+     height: 95vh;
+     justify-content: space-between;
 `;
 const Header = styled.div`
      border-bottom: 2px solid #455a64;
@@ -178,7 +191,7 @@ const Select = styled.select`
 
 const Title = styled.p`
      text-align: left;
-     margin-left:63px;
+     margin-left: 63px;
 `;
 const Button = styled.button`
      width: 200px;

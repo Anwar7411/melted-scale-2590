@@ -19,13 +19,17 @@ import DeliveryDetails from "../components/DeliveryDetails";
 import ThankYou from "../components/ThankYou";
 import Watchpage from "./Watchpage";
 import PrivateRoute from "./PrivateRoute";
+import PageNotFound from "./PageNotFound";
+import { Product } from "./Product";
 
 const MainRoutes = () => {
      return (
           <Routes>
                <Route path="/login" element={<Login />}></Route>
                <Route path="/SignUp" element={<SignUp />}></Route>
-               <Route path="/home/electronics" element={<Electronics />} />
+               {/* <Route path="/home/electronics" element={<Electronics />} /> */}
+               <Route path="/electronics" element={<Electronics />} />
+               <Route path="/electronics/:id" element={<Product />} />
                <Route
                     path="/clothing"
                     element={
@@ -34,6 +38,7 @@ const MainRoutes = () => {
                          </PrivateRoute>
                     }
                ></Route>
+               <Route path="/products/:id" element={<Product />} />
                <Route path="/" element={<Home />} />
                <Route path="/FlashSale" element={<FlashSale />} />
                <Route path="/BestDeal" element={<BestDeal />} />
@@ -41,6 +46,7 @@ const MainRoutes = () => {
                <Route path="/Trending" element={<Trending />} />
 
                <Route path="/Watchpage" element={<Watchpage />} />
+               <Route path="/Watchpage/:id" element={<Product />} />
                <Route path="/admindashboard" element={<Admindashboard />} />
                <Route
                     path="/vendorRegistrationForm"

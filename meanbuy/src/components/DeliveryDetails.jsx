@@ -176,16 +176,14 @@ const DeliveryDetails = () => {
                               <Text>By Card: {cardNumber}</Text>
                          </Box>
                     </Box>
-                    <Box p={5} borderBottom={"1px solid #ccc"}>
-                         <Box
-                              display={"flex"}
-                              flexDirection={"column"}
-                              alignItems="flex-start"
-                         >
-                              <Button mt={100} ml={100} onClick={handleClick}>
-                                   Continue Shopping
-                              </Button>
-                         </Box>
+                    <Box
+                         display={"flex"}
+                         flexDirection={"column"}
+                         alignItems="flex-start"
+                    >
+                         <Button mt={10} ml={100} onClick={handleClick}>
+                              Continue Shopping
+                         </Button>
                     </Box>
                </Box>
           </Box>

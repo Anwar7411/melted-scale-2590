@@ -33,10 +33,42 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaSnapchat } from "react-icons/fa";
 import { BiRupee } from "react-icons/bi";
+import { useLocation, useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { authgetData, saveCartData } from "../redux/utilies/authLocalData";
 
 export const Product = () => {
+  const location = useLocation();
+  // const dispatch = useDispatch();
+  const [prodData, setProdData] = useState({});
+
+  const { pathname } = location;
+
+  const { id } = useParams();
+
+  const getData = () => {
+    axios
+      .get(`http://localhost:8080${pathname}`)
+      .then((res) => {
+        setProdData(res.data);
+        // console.log(prodData);
+      })
+      .catch((e) => {
+        console.log("Error: ", e);
+      });
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const handleAddCart = () => {
+    saveCartData("user_cart_items", prodData);
+  };
+
   return (
-    <Container maxW="container.xl" border="1px solid red">
+    <Container maxW="container.xl" mb="80px">
       <Flex
         gap="50px"
         flexDirection={{
@@ -47,13 +79,13 @@ export const Product = () => {
         }}
       >
         <Box w="37%" mt="40px">
-          <SliderSlick />
+          <SliderSlick images={prodData.images} />
         </Box>
         <Box w="60%" mt="40px">
           <VStack align="start">
             <Box>
               <Heading as="h3" size="lg" noOfLines={1} color="#455a64">
-                300mL MultiFunctional Electric Squeezer Juicer
+                {prodData.title}
               </Heading>
             </Box>
             <Box>
@@ -66,7 +98,7 @@ export const Product = () => {
                   borderRadius="5px"
                   mr="100px"
                 >
-                  4.5/5
+                  {prodData.rating}
                   <StarIcon ml="5px" viewBox="0 2 24 24" />
                 </Badge>
                 <Link _hover={{ textDecoration: "none" }} mr="50px">
@@ -102,14 +134,17 @@ export const Product = () => {
               <HStack spacing="80px">
                 <Box>
                   <Text color="#f98d29" fontSize="32px" fontWeight="bold">
-                    {/* <Icon as={BiRupee} viewBox="0 0 24 24" /> */}
-                    ₹7,999.00
+                    {/* <Icon as={BiRupee} viewBox="0 0 24 24" /> */}₹
+                    {prodData.price}
                   </Text>
                 </Box>
                 <Box>
-                  <Text as="s" ml="-50px" color="gray" fontWeight="semibold">
-                    ₹24,999.00
-                  </Text>
+                  <Text
+                    as="s"
+                    ml="-50px"
+                    color="gray"
+                    fontWeight="semibold"
+                  ></Text>
                 </Box>
                 <Box>
                   <Text color="#008a00" fontSize="14px">
@@ -187,6 +222,7 @@ export const Product = () => {
                 borderRadius="4px"
                 pl={14}
                 pr={14}
+                onClick={handleAddCart}
               >
                 ADD TO CART
               </Button>
@@ -202,7 +238,7 @@ export const Product = () => {
             </HStack>
             <HStack pt="14px">
               <Text color="#455a64">Or 3 interest free payments of</Text>
-              <Text as="b">₹2666.34</Text>
+              <Text as="b">₹{prodData.simplpay_amount}</Text>
               <Text>with</Text>
               <Box w="50px">
                 <Image src="https://d64lkarmo2mrq.cloudfront.net/icons/89165818.png" />
@@ -229,12 +265,25 @@ export const Product = () => {
                       fontWeight="semibold"
                       mb="16px"
                     >
-                      300mL MultiFunctional Electric Squeezer Juicer
+                      {prodData.title}
                     </Text>
                     <Text color="#455a64" as="b" fontSize="14px">
                       Product Description:
                     </Text>
-                    <Text
+                    {prodData.description &&
+                      prodData.description?.map((desc) => {
+                        return (
+                          <Text
+                            wordBreak="break-all"
+                            mt="10px"
+                            color="#455a64"
+                            fontSize="14px"
+                          >
+                            {desc}
+                          </Text>
+                        );
+                      })}
+                    {/* <Text
                       wordBreak="break-all"
                       mt="10px"
                       color="#455a64"
@@ -244,14 +293,18 @@ export const Product = () => {
                       fjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjg
                       fjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfj
                       gfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfjgfj
-                    </Text>
+                    </Text> */}
                   </TabPanel>
                   <TabPanel>
                     <UnorderedList color="#455a64">
-                      <ListItem>Lorem ipsum dolor sit amet</ListItem>
+                      {prodData.features &&
+                        prodData.features?.map((feature) => {
+                          return <ListItem>{feature}</ListItem>;
+                        })}
+                      {/* <ListItem>Lorem ipsum dolor sit amet</ListItem>
                       <ListItem>Consectetur adipiscing elit</ListItem>
                       <ListItem>Integer molestie lorem at massa</ListItem>
-                      <ListItem>Facilisis in pretium nisl aliquet</ListItem>
+                      <ListItem>Facilisis in pretium nisl aliquet</ListItem> */}
                     </UnorderedList>
                   </TabPanel>
                   <TabPanel>

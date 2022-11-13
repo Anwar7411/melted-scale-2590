@@ -6,12 +6,15 @@ import {
      AlertTitle,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
+import { saveCartData } from "../redux/utilies/authLocalData";
 const ThankYou = () => {
      const navigate = useNavigate();
      useEffect(() => {
           setTimeout(() => {
                navigate("/");
-          }, 2000);
+          }, 4000);
+          // saveCartData("user_cart_items", []);
+          window.localStorage.removeItem("user_cart_items");
      }, []);
 
      return (

@@ -1,10 +1,17 @@
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { Box, Image } from "@chakra-ui/react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import ProductUploadForm from "./ProductUploadForm";
 import UnVerifiedData from "./UnVerifiedData";
 
 const Dashboard = () => {
+     const navigate = useNavigate();
+
+     const handleLogout = () => {
+          navigate("/marchentLogin");
+     };
+
      return (
           <div>
                <div
@@ -38,6 +45,7 @@ const Dashboard = () => {
                                    width: "150px",
                                    border: "none",
                               }}
+                              onClick={(e) => handleLogout()}
                          >
                               Logout
                          </button>

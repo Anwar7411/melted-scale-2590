@@ -29,10 +29,10 @@ export const Electronics = () => {
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const [sortBy, setSortBy] = useState(searchParams.get("sortBy") || "");
-  const  isLoading = useSelector((store) => store.AppReducer.isLoading);
-   
+  const isLoading = useSelector((store) => store.AppReducer.isLoading);
 
-  // console.log(location);
+  const { pathname } = location;
+  // console.log(pathname);
 
   useEffect(() => {
     const params = {};
@@ -44,7 +44,7 @@ export const Electronics = () => {
     if (location || products.length === 0) {
       const queryParams = {
         params: {
-          _sort: searchParams.get("sortBy") && "actual_price",
+          _sort: searchParams.get("sortBy") && "price",
           _order: searchParams.get("sortBy"),
         },
       };
@@ -52,27 +52,27 @@ export const Electronics = () => {
     }
   }, [location.search]);
 
-  if(isLoading==true){ 
-    return   <Spinner color='red.500' mb="800px" />
-   }
+  if (isLoading === true) {
+    return <Spinner color="red.500" mb="800px" />;
+  }
 
   return (
     <Box mt="8%" w="100%" border="1px solid red" p={2}>
       <HStack alignItems="flex-start">
-        <Box w="20%" border="1px solid blue" p={2}>
+        <Box w="20%" p={2}>
           FILTER
         </Box>
-        <Box w="80%" border="1px solid blue" p={2}>
+        <Box w="80%" p={2}>
           <VStack h="100%">
-            <Box border="1px solid red" w="100%" h="12%" p={2}>
+            <Box w="100%" h="12%" p={2}>
               <Flex>
-                <Box border="1px solid green" p={2} color="#455a64">
+                <Box p={2} color="#455a64">
                   <Breadcrumb
                     spacing="8px"
                     separator={<ChevronRightIcon color="gray.500" />}
                   >
                     <BreadcrumbItem>
-                      <BreadcrumbLink href="#">Home</BreadcrumbLink>
+                      <BreadcrumbLink href="/home">Home</BreadcrumbLink>
                     </BreadcrumbItem>
 
                     <BreadcrumbItem isCurrentPage>
@@ -121,24 +121,18 @@ export const Electronics = () => {
                 </Box>
               </Flex>
             </Box>
-            <Box border="1px solid red" w="100%" p={2}>
-              <Container border="1px solid blue" maxW="container.xl">
+            <Box w="100%" p={2}>
+              <Container maxW="container.xl">
                 <SimpleGrid minChildWidth="300px">
                   {products.map((product) => {
-                    return <ProductCard key={product.id} {...product} />;
+                    return (
+                      <ProductCard
+                        key={product.id}
+                        {...product}
+                        pathname={pathname}
+                      />
+                    );
                   })}
-                  {/* <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard /> */}
                 </SimpleGrid>
               </Container>
             </Box>

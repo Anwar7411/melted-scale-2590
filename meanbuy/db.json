@@ -38,7 +38,6 @@
                 "Trending"
             ]
         },
-        
         {
             "id": "2",
             "title": "Solid Men Polo Neck Green T-Shirt",
@@ -155,7 +154,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "3",
             "title": "Solid Men Mandarin Collar Black, Grey T-Shirt",
@@ -194,7 +192,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "41",
             "title": "Eva Fashion Fancy 3/4 Sleeves Women's Top",
@@ -312,7 +309,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "5",
             "title": "Solid Men Hooded Neck Red T-Shirt",
@@ -352,7 +348,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "6",
             "title": "Solid Men Polo Neck Green T-Shirt",
@@ -470,7 +465,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "8",
             "title": "Printed Men Hooded Neck Green T-Shirt",
@@ -478,7 +472,7 @@
             "type": "t-shirt",
             "gender": "Men",
             "price": 399,
-            "strike-off": 899,
+            "strikeOff": 899,
             "images": [
                 "https://rukminim1.flixcart.com/image/128/128/k3ncakw0/t-shirt/g/g/h/l-men-fw18-hood-fs-olive-black-watched-maniac-original-imafmq32sk8jpq7s.jpeg?q=70",
                 "https://rukminim1.flixcart.com/image/128/128/k3ncakw0/t-shirt/g/g/h/m-men-fw18-hood-fs-olive-black-watched-maniac-original-imafmq32fa98jjzs.jpeg?q=70"
@@ -510,8 +504,6 @@
                 "Best Deal"
             ]
         },
-        
-        
         {
             "id": "9",
             "title": "Color Block Men Round Neck Grey T-Shirt",
@@ -551,7 +543,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "10",
             "title": "Color Block Men Round Neck Grey T-Shirt",
@@ -591,7 +582,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "11",
             "title": "Solid Men Henley Neck Grey T-Shirt",
@@ -631,7 +621,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "12",
             "title": "Solid Men Round Neck Grey T-Shirt",
@@ -866,7 +855,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "13",
             "title": "Solid Men Mandarin Collar Red, Black T-Shirt",
@@ -906,7 +894,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "14",
             "title": "Solid Men Mandarin Collar Red T-Shirt",
@@ -946,7 +933,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "15",
             "title": "Solid Men Round Neck Olive T-Shirt Solid Men Round Neck Green T-Shirt",
@@ -986,7 +972,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "16",
             "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
@@ -1026,7 +1011,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "17",
             "title": "Men Regular Fit Printed Casual Shirt",
@@ -1066,7 +1050,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "18",
             "title": "Men Slim Fit Solid Mandarin Collar Casual Shirt",
@@ -1106,7 +1089,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "19",
             "title": "Men Slim Fit Checkered Button Down Collar Casual Shirt",
@@ -1146,7 +1128,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "20",
             "title": "Anti-Bacterial Men Slim Fit Solid Cut Away Collar Casual Shirt",
@@ -1186,7 +1167,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "21",
             "title": "Men Regular Fit Color Block Casual Shirt Special price",
@@ -1226,7 +1206,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "22",
             "title": "Men Slim Fit Printed Casual Shirt",
@@ -1266,7 +1245,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "23",
             "title": "Men Slim Fit Solid Casual Shirt",
@@ -1306,7 +1284,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "24",
             "title": "Men Checkered Casual Red Shirt",
@@ -1346,7 +1323,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "25",
             "title": "Men Regular Fit Printed Spread Collar Casual Shirt",
@@ -1386,7 +1362,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "26",
             "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
@@ -1426,7 +1401,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "27",
             "title": "Men Slim Fit Solid Cut Away Collar Casual Shirt",
@@ -1466,7 +1440,6 @@
                 "Best Deal"
             ]
         },
-       
         {
             "id": "28",
             "title": "Men Regular Fit Solid Casual Shirt",
@@ -1506,7 +1479,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "29",
             "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
@@ -1546,7 +1518,6 @@
                 "Best Deal"
             ]
         },
-        
         {
             "id": "30",
             "title": "Men Regular Fit Solid Cut Away Collar Casual Shirt",
@@ -1703,9 +1674,6 @@
                 "Best Deal"
             ]
         },
-        
-       
-       
         {
             "id": "45",
             "title": "Prettify Women's Regular Fit Embroidered Western Top ",
@@ -1759,7 +1727,7 @@
             "title": "400mL Multifunctional Electric Squeezer Juicer",
             "rating": "3.7/5",
             "price": "7,999.00",
-            "strike-off": "14,999.00",
+            "strikeOff": "14,999.00",
             "simplpay_amount": 2666.34,
             "description": [
                 "All of our slow juicer parts are made of high-quality ABS and AS materials, safe and harmless. With an electric juicer, you can serve delicious juice to you and your loved ones every day!",
@@ -1795,7 +1763,7 @@
             "title": "Mini Fruit Squeezer",
             "rating": "4.8/5",
             "price": "5,999.00",
-            "strike-off": "12,999.00",
+            "strikeOff": "12,999.00",
             "color": "blue",
             "simplpay_amount": 1999.34,
             "description": [
@@ -1830,7 +1798,7 @@
             "title": "500ml Juicer Mixer",
             "rating": "4.6/5",
             "price": "7,999.00",
-            "strike-off": "14,999.00",
+            "strikeOff": "14,999.00",
             "color": "blue",
             "simplpay_amount": 1999.34,
             "description": [
@@ -1869,7 +1837,7 @@
             "title": "Vegetables Chopper Grinder",
             "rating": "4.7/5",
             "price": "2,499.00",
-            "strike-off": "10,999.00",
+            "strikeOff": "10,999.00",
             "color": "green",
             "simplpay_amount": "833",
             "description": [],
@@ -1903,7 +1871,7 @@
             "title": "Multifunction Fruit Extractor",
             "rating": "3.8/5",
             "price": "5,199.00",
-            "strike-off": "14,999.00",
+            "strikeOff": "14,999.00",
             "color": "green",
             "simplpay_amount": "1733",
             "description": [],
@@ -1937,7 +1905,7 @@
             "title": "Electric Popcorn Maker",
             "rating": "5.0/5",
             "price": "5,999.00",
-            "strike-off": "14,999.00",
+            "strikeOff": "14,999.00",
             "color": "red",
             "simplpay_amount": "1999.68",
             "description": [],
@@ -1972,7 +1940,7 @@
             "title": "500ML Cream Whippers",
             "rating": "4.9/5",
             "price": "4,999.00",
-            "strike-off": "14,999.00",
+            "strikeOff": "14,999.00",
             "color": "red",
             "simplpay_amount": "1666.68",
             "description": [],
@@ -2002,7 +1970,7 @@
             "title": "Hand-Pressed Coffee Maker",
             "rating": "4.9/5",
             "price": "4,199.00",
-            "strike-off": "14,999.00",
+            "strikeOff": "14,999.00",
             "color": "black",
             "simplpay_amount": "1399.68",
             "description": [],
@@ -2034,7 +2002,7 @@
             "title": "1.2L Electric Kettle",
             "rating": "4.6/5",
             "price": "5,599.00",
-            "strike-off": "14,999.00",
+            "strikeOff": "14,999.00",
             "color": "black",
             "simplpay_amount": "1866.68",
             "description": [
@@ -2062,246 +2030,246 @@
             ]
         }
     ],
-    
-    "Watches":[
+    "Watches": [
         {
-            "id":"1",
-          "singlepage": "https://www.meanbuy.com/shop/product/Marvel_Iron_Men_ARC_Reactor_Watch",
-          "genre":"LIGE",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MTU3XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Marvel Iron Men ARC Reactor Watch",
-          "rating": 3.5,
-          "price": "29,999",
-          "off": "UP TO 50% OFF"
+            "id": "1",
+            "singlepage": "https://www.meanbuy.com/shop/product/Marvel_Iron_Men_ARC_Reactor_Watch",
+            "genre": "LIGE",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MTU3XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Marvel Iron Men ARC Reactor Watch",
+            "rating": 3.5,
+            "price": "29,999",
+            "off": "UP TO 50% OFF"
         },
         {
-            "id":"2",
-            "genre":"MB",
-          "singlepage": "https://www.meanbuy.com/shop/product/Steering_Wheel_Steel_Quartz_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzNTMyXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Steering Wheel Steel Quartz Watch",
-          "rating": 4.2,
-          "price": "4,999",
-          "off": "UP TO 67% OFF"
+            "id": "2",
+            "genre": "MB",
+            "singlepage": "https://www.meanbuy.com/shop/product/Steering_Wheel_Steel_Quartz_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzNTMyXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Steering Wheel Steel Quartz Watch",
+            "rating": 4.2,
+            "price": "4,999",
+            "off": "UP TO 67% OFF"
         },
         {
-            "id":"3",
-            "genre":"BENZ AMG",
-          "singlepage": "https://www.meanbuy.com/shop/product/Steering_Wheel_Leather_Band_Quartz_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzNTMxXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Steering Wheel Quartz Watch",
-          "rating": 4.7,
-          "price": "3,999",
-          "off": "UP TO 69% OFF"
+            "id": "3",
+            "genre": "BENZ AMG",
+            "singlepage": "https://www.meanbuy.com/shop/product/Steering_Wheel_Leather_Band_Quartz_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzNTMxXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Steering Wheel Quartz Watch",
+            "rating": 4.7,
+            "price": "3,999",
+            "off": "UP TO 69% OFF"
         },
         {
-            "id":"4",
-            "genre":"BENZ AMG",
-          "singlepage": "https://www.meanbuy.com/shop/product/Luminous_Seagull_waterproof_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMTk4XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Luminous Seagull waterproof Watch",
-          "rating": 4.3,
-          "price": "14,999",
-          "off": "UP TO 63% OFF"
+            "id": "4",
+            "genre": "BENZ AMG",
+            "singlepage": "https://www.meanbuy.com/shop/product/Luminous_Seagull_waterproof_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMTk4XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Luminous Seagull waterproof Watch",
+            "rating": 4.3,
+            "price": "14,999",
+            "off": "UP TO 63% OFF"
         },
         {
-            "id":"5",
-            "genre":"BENZ AMG",
-          "singlepage": "https://www.meanbuy.com/shop/product/360_Pixel_Ultra~Clear_Smart_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDYwXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "360 Pixel Ultra-Clear Smart Watch",
-          "rating": 4.3,
-          "price": "8,999",
-          "off": "UP TO 64% OFF"
+            "id": "5",
+            "genre": "BENZ AMG",
+            "singlepage": "https://www.meanbuy.com/shop/product/360_Pixel_Ultra~Clear_Smart_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDYwXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "360 Pixel Ultra-Clear Smart Watch",
+            "rating": 4.3,
+            "price": "8,999",
+            "off": "UP TO 64% OFF"
         },
         {
-            "id":"6",
-            "genre":"BOBOBIRD",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Magnetic_Steel_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDMwXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Magnetic Steel Watch",
-          "rating": 4.8,
-          "price": "7,999",
-          "off": "UP TO 68% OFF"
+            "id": "6",
+            "genre": "BOBOBIRD",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Magnetic_Steel_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDMwXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Magnetic Steel Watch",
+            "rating": 4.8,
+            "price": "7,999",
+            "off": "UP TO 68% OFF"
         },
         {
-            "id":"7",
-            "genre":"BOBOBIRD",
-          "singlepage": "https://www.meanbuy.com/shop/product/Tourbillon_Mechanical_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDI4XC9CbHVlX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-          "title": "Tourbillon Mechanical Watch",
-          "rating": 4.3,
-          "price": "7,999",
-          "off": "UP TO 68% OFF"
+            "id": "7",
+            "genre": "BOBOBIRD",
+            "singlepage": "https://www.meanbuy.com/shop/product/Tourbillon_Mechanical_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDI4XC9CbHVlX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+            "title": "Tourbillon Mechanical Watch",
+            "rating": 4.3,
+            "price": "7,999",
+            "off": "UP TO 68% OFF"
         },
         {
-            "id":"8",
-            "genre":"CURREN",
-          "singlepage": "https://www.meanbuy.com/shop/product/Fairwhale_Mechanical_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDI5XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Fairwhale Mechanical Watch",
-          "rating": 4.2,
-          "price": "9,999",
-          "off": "UP TO 67% OFF"
+            "id": "8",
+            "genre": "CURREN",
+            "singlepage": "https://www.meanbuy.com/shop/product/Fairwhale_Mechanical_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDI5XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Fairwhale Mechanical Watch",
+            "rating": 4.2,
+            "price": "9,999",
+            "off": "UP TO 67% OFF"
         },
         {
-            "id":"9",
-            "genre":"CURREN",
-          "singlepage": "https://www.meanbuy.com/shop/product/Hollow_Mechanical_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDI3XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Hollow Mechanical Watch",
-          "rating": 4.2,
-          "price": "9,999",
-          "off": "UP TO 60% OFF"
+            "id": "9",
+            "genre": "CURREN",
+            "singlepage": "https://www.meanbuy.com/shop/product/Hollow_Mechanical_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDI3XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Hollow Mechanical Watch",
+            "rating": 4.2,
+            "price": "9,999",
+            "off": "UP TO 60% OFF"
         },
         {
-            "id":"10",
-            "genre":"PD",
-          "singlepage": "https://www.meanbuy.com/shop/product/Automatic_Mechanical_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyOTk2XC9TaWx2ZXJfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-          "title": "Automatic Mechanical Watch",
-          "rating": 4.7,
-          "price": "12,999",
-          "off": "UP TO 61% OFF"
-        },
-        {"id":"11",
-        "genre":"PD",
-          "singlepage": "https://www.meanbuy.com/shop/product/CHENXI_Square_Mens_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyOTU3XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "CHENXI Square Mens Watch",
-          "rating": 3.6,
-          "price": "3,499",
-          "off": "UP TO 71% OFF"
+            "id": "10",
+            "genre": "PD",
+            "singlepage": "https://www.meanbuy.com/shop/product/Automatic_Mechanical_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyOTk2XC9TaWx2ZXJfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+            "title": "Automatic Mechanical Watch",
+            "rating": 4.7,
+            "price": "12,999",
+            "off": "UP TO 61% OFF"
         },
         {
-            "id":"12",
-            "genre":"SK",
-          "singlepage": "https://www.meanbuy.com/shop/product/Authentic_Wrist_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyOTY0XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Authentic Wrist Watch",
-          "rating": 4.5,
-          "price": "3,199",
-          "off": "UP TO 73% OFF"
+            "id": "11",
+            "genre": "PD",
+            "singlepage": "https://www.meanbuy.com/shop/product/CHENXI_Square_Mens_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyOTU3XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "CHENXI Square Mens Watch",
+            "rating": 3.6,
+            "price": "3,499",
+            "off": "UP TO 71% OFF"
         },
         {
-            "id":"13",
-            "genre":"SK",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Luxury_Mechanical_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjMyXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Luxury Mechanical Watch",
-          "rating": 4.9,
-          "price": "8,999",
-          "off": "UP TO 64% OFF"
+            "id": "12",
+            "genre": "SK",
+            "singlepage": "https://www.meanbuy.com/shop/product/Authentic_Wrist_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyOTY0XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Authentic Wrist Watch",
+            "rating": 4.5,
+            "price": "3,199",
+            "off": "UP TO 73% OFF"
         },
         {
-            "id":"14",
-            "genre":"SK",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Quartz_Wheel_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI0XC9HcmVlbl9uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Quartz Wheel Watch",
-          "rating": 4.5,
-          "price": "8,999",
-          "off": "UP TO 64% OFF"
+            "id": "13",
+            "genre": "SK",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Luxury_Mechanical_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjMyXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Luxury Mechanical Watch",
+            "rating": 4.9,
+            "price": "8,999",
+            "off": "UP TO 64% OFF"
         },
         {
-            "id":"15",
-            "genre":"BENZ AMG",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Sport_Car_Wheel_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI2XC9CbHVlX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-          "title": "Mens Sport Car Wheel Watch",
-          "rating": 4.6,
-          "price": "8,999",
-          "off": "UP TO 64% OFF"
+            "id": "14",
+            "genre": "SK",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Quartz_Wheel_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI0XC9HcmVlbl9uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Quartz Wheel Watch",
+            "rating": 4.5,
+            "price": "8,999",
+            "off": "UP TO 64% OFF"
         },
         {
-            "id":"16",
-            "genre":"BENZ AMG",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Steel_Wheel_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI5XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Steel Wheel Watch",
-          "rating": 4,
-          "price": "8,999",
-          "off": "UP TO 64% OFF"
+            "id": "15",
+            "genre": "BENZ AMG",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Sport_Car_Wheel_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI2XC9CbHVlX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+            "title": "Mens Sport Car Wheel Watch",
+            "rating": 4.6,
+            "price": "8,999",
+            "off": "UP TO 64% OFF"
         },
         {
-            "id":"17",
-            "genre":"CURREN",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Stainless_Steel_Wristwatch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjMxXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Stainless Steel Wristwatch",
-          "rating": 3.9,
-          "price": "4,499",
-          "off": "UP TO 63% OFF"
+            "id": "16",
+            "genre": "BENZ AMG",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Steel_Wheel_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI5XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Steel Wheel Watch",
+            "rating": 4,
+            "price": "8,999",
+            "off": "UP TO 64% OFF"
         },
         {
-            "id":"18",
-            "genre":"MB",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Waterproof_Wheel_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI1XC9SZWRfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-          "title": "3D BENZ AMG WHEEL WATCH",
-          "rating": 1.8,
-          "price": "8,999",
-          "off": "UP TO 64% OFF"
+            "id": "17",
+            "genre": "CURREN",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Stainless_Steel_Wristwatch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjMxXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Stainless Steel Wristwatch",
+            "rating": 3.9,
+            "price": "4,499",
+            "off": "UP TO 63% OFF"
         },
         {
-            "id":"19",
-            "genre":"MB",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Waterproof_Quartz_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI3XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Waterproof Quartz Watch",
-          "rating": 4.3,
-          "price": "8,499",
-          "off": "UP TO 66% OFF"
+            "id": "18",
+            "genre": "MB",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Waterproof_Wheel_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI1XC9SZWRfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+            "title": "3D BENZ AMG WHEEL WATCH",
+            "rating": 1.8,
+            "price": "8,999",
+            "off": "UP TO 64% OFF"
         },
         {
-            "id":"20",
-            "genre":"LIGE",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Steering_Wheel_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI4XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Steering Wheel Watch",
-          "rating": 4.9,
-          "price": "9,999",
-          "off": "UP TO 60% OFF"
+            "id": "19",
+            "genre": "MB",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Waterproof_Quartz_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI3XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Waterproof Quartz Watch",
+            "rating": 4.3,
+            "price": "8,499",
+            "off": "UP TO 66% OFF"
         },
         {
-            "id":"21",
-            "genre":"PD",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Luminous_Quartz_Watch",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjMwXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Mens Luminous Quartz Watch",
-          "rating": 4,
-          "price": "8,999",
-          "off": "UP TO 64% OFF"
+            "id": "20",
+            "genre": "LIGE",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Steering_Wheel_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI4XC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Steering Wheel Watch",
+            "rating": 4.9,
+            "price": "9,999",
+            "off": "UP TO 60% OFF"
         },
         {
-            "id":"22",
-            "genre":"SK",
-          "singlepage": "https://www.meanbuy.com/shop/product/Men_Analog~Digital_Watch_2",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjI0NzMzXC9CbHVlX25fMV8xLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-          "title": "Men Analog-Digital Watch",
-          "rating": 4.6,
-          "price": "2,899",
-          "off": "UP TO 71% OFF"
+            "id": "21",
+            "genre": "PD",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Luminous_Quartz_Watch",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjMwXC9CbGFja19uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Mens Luminous Quartz Watch",
+            "rating": 4,
+            "price": "8,999",
+            "off": "UP TO 64% OFF"
         },
         {
-            "id":"23",
-            "genre":"LIGE",
-          "singlepage": "https://www.meanbuy.com/shop/product/Mens_Leather_Water~Resistant_Quartz_Watch_2",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjI0NzMxXC9CbGFja19uXzFfMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-          "title": "Mens Leather Water-Resistant Quartz Watch",
-          "rating": 3.9,
-          "price": "2,899",
-          "off": "UP TO 71% OFF"
+            "id": "22",
+            "genre": "SK",
+            "singlepage": "https://www.meanbuy.com/shop/product/Men_Analog~Digital_Watch_2",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjI0NzMzXC9CbHVlX25fMV8xLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+            "title": "Men Analog-Digital Watch",
+            "rating": 4.6,
+            "price": "2,899",
+            "off": "UP TO 71% OFF"
         },
         {
-            "id":"24",
-            "genre":"SK",
-          "singlepage": "https://www.meanbuy.com/shop/product/Silicone_Steel_Sports_Watch_2",
-          "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjIxOTQ4XC9SZWRfbl8xXzEuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-          "title": "Silicone Steel Sports Watch",
-          "rating": 4.5,
-          "price": "2,899",
-          "off": "UP TO 71% OFF"
+            "id": "23",
+            "genre": "LIGE",
+            "singlepage": "https://www.meanbuy.com/shop/product/Mens_Leather_Water~Resistant_Quartz_Watch_2",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjI0NzMxXC9CbGFja19uXzFfMS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+            "title": "Mens Leather Water-Resistant Quartz Watch",
+            "rating": 3.9,
+            "price": "2,899",
+            "off": "UP TO 71% OFF"
+        },
+        {
+            "id": "24",
+            "genre": "SK",
+            "singlepage": "https://www.meanbuy.com/shop/product/Silicone_Steel_Sports_Watch_2",
+            "image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjIxOTQ4XC9SZWRfbl8xXzEuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+            "title": "Silicone Steel Sports Watch",
+            "rating": 4.5,
+            "price": "2,899",
+            "off": "UP TO 71% OFF"
         }
-      ]
+    ]
 }

@@ -53,15 +53,13 @@ export const Electronics = () => {
   }, [location.search]);
 
   if (isLoading === true) {
-    return <Spinner color='red.500' mb="800px"  mt="200px" ml="50%" />;
+    return <Spinner color="red.500" mb="800px" mt="200px" ml="50%" />;
   }
 
   return (
-    <Box  w="100%"  p={2} mt="130px">
+    <Box w="100%" p={2} mt="130px">
       <HStack alignItems="flex-start">
-        <Box w="20%" p={2}>
-          FILTER
-        </Box>
+        <Box w="20%" p={2}></Box>
         <Box w="80%" p={2}>
           <VStack h="100%">
             <Box w="100%" h="12%" p={2}>

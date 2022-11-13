@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Login from "./Login";
 import SignUp from "./SignUp";
@@ -20,7 +20,6 @@ import { Product } from "./Product";
 import FeedbackForm from "./FeedbackForm";
 
 const MainRoutes = () => {
-
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -39,15 +38,28 @@ const MainRoutes = () => {
       />
       <Route path="/marchentLogin" element={<MarchentLogin />} />
       <Route path="/productUploadForm" element={<ProductUploadMarchent />} />
-      <Route path="/checkout" element={<PrivateRoute><Checkout /></PrivateRoute>} />
-      <Route path="/cardpayment" element={<PrivateRoute><CardPayment /></PrivateRoute>} />
+      <Route
+        path="/checkout"
+        element={
+          <PrivateRoute>
+            <Checkout />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/cardpayment"
+        element={
+          <PrivateRoute>
+            <CardPayment />
+          </PrivateRoute>
+        }
+      />
       <Route path="/deliverydetails" element={<DeliveryDetails />} />
       <Route path="/thankyou" element={<ThankYou />} />
       <Route path="/FeedbackForm" element={<FeedbackForm />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
-
 };
 
 export default MainRoutes;

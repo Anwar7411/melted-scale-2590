@@ -37,7 +37,7 @@ const Login = () => {
         navigate("/")
     }
     return (
-        <div class="Login">
+        <div style={{paddingTop:"10%"}} class="Login">
             <h1 >Login or Create Account</h1>
             <form onSubmit={handleSubmit}>
                 <label>Email Address</label><br />

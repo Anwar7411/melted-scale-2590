@@ -1,4 +1,4 @@
-import { Button, Flex, Heading, Image } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image,Text } from "@chakra-ui/react";
 import React, { Component } from "react";
 import Slider from "react-slick";
 export default class MultipleItems extends Component {
@@ -12,9 +12,8 @@ export default class MultipleItems extends Component {
     };
     return (
       <div>
-        <Flex >
-        <Heading className="heading" pr="83%" size={"xl"} >Featured</Heading>
-        </Flex>
+         <Box borderBottom="2px solid"> <Text textAlign={"left"} fontSize='2xl'> <b>Feature</b> </Text></Box> 
+        <br/>
         <Slider {...settings}>
             <div>
                 <Image ml="15%" src="https://d64lkarmo2mrq.cloudfront.net/img/as_seen_on/chainmag.jpg"/>

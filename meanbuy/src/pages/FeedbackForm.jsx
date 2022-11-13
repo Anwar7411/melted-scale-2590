@@ -5,7 +5,7 @@ import FeedbackMenu from "../components/FeedbackMenu";
 
 const FeedbackForm = () => {
      return (
-          <Wrapper>
+          <Wrapper >
                <FeedbackMenu />
                <Feedback />
           </Wrapper>

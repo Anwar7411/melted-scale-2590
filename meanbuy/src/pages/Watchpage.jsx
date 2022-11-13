@@ -3,6 +3,7 @@ import style from "styled-components";
 import FilterSort from "../components/FilterSort";
 import Watches from "../components/Watches";
 const Watchpage = () => {
+
      return (
           <div>
                <Wrapper>
@@ -18,21 +19,31 @@ const Watchpage = () => {
 };
 
 const Wrapper = style.div`
+
 display:flex;
+border: 1px solid red;
 min-height:100vh;
 margin-bottom:20px;
-`;
+padding-top:8%;
+`
 const WrapperFilterSort = style.div`
 width:200px;
-`;
+border:1px solid black;
+`
 const WrapperWatches = style.div`
 width:100%;
+border: 1px solid blue;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,max-content));
 justify-content:center;
 margin-top:-50px;
-grid-gap:10px;   
-`;
+grid-gap:10px;`   
+
+    
+
+
+
+
 export default Watchpage;
 
 // import React from 'react'

@@ -19,7 +19,7 @@ import DeliveryDetails from "../components/DeliveryDetails";
 import ThankYou from "../components/ThankYou";
 import Watchpage from "./Watchpage";
 import PrivateRoute from "./PrivateRoute";
-
+import FeedbackForm from "./FeedbackForm";
 const MainRoutes = () => {
      return (
           <Routes>
@@ -48,6 +48,7 @@ const MainRoutes = () => {
                <Route path="/cardpayment" element={<CardPayment />} />
                <Route path="/deliverydetails" element={<DeliveryDetails />} />
                <Route path="/thankyou" element={<ThankYou />} />
+               <Route path="/FeedbackForm" element={<FeedbackForm />} />
                <Route path="*" element={<div>Page Not Found!</div>} />
           </Routes>
      );

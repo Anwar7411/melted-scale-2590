@@ -10,7 +10,7 @@ import MultipleItems from '../components/FeatureSlider'
 const Home = () => {
   return (
     <div>
-        <div><SimpleSlider/></div>
+        <div style={{paddingTop:"10%"}}><SimpleSlider/></div>
         <div style={{margin:"10%"}}><AutoPlay/></div>
         <div style={{margin:"10%",marginTop:"-2%"}}><AutoPlay2/></div>
         <div style={{margin:"10%",marginTop:"-2%"}}><AutoPlay3/></div>

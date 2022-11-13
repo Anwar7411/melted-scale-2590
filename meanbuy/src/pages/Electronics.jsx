@@ -57,7 +57,7 @@ export const Electronics = () => {
   }
 
   return (
-    <Box w="100%" p={2} mb="80px">
+    <Box mt="8%" w="100%"  p={2}>
       <HStack alignItems="flex-start">
         <Box w="20%" p={2}>
           FILTER

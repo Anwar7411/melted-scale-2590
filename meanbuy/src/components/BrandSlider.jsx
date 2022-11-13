@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { Button, Flex, Heading, Image } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image,Text } from "@chakra-ui/react";
+
 
 export default class AdaptiveHeight extends Component {
   render() {
@@ -17,9 +18,8 @@ export default class AdaptiveHeight extends Component {
     };
     return (
       <div>
-        <Flex >
-        <Heading className="heading" pr="83%" size={"xl"} >Top Selling Brands</Heading>
-        </Flex>
+             <Box borderBottom="2px solid"> <Text textAlign={"left"} fontSize='2xl'> <b>Top Selling Brands</b> </Text></Box> 
+        <br/>
         <Slider {...settings}>
           <div>
             <Image src="https://d64lkarmo2mrq.cloudfront.net/img/home/brandbanner2.webp"/>

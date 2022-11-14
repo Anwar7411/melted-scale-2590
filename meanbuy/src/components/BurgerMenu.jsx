@@ -34,6 +34,7 @@ function BurgerMenu() {
      const emaillocal = useSelector(
           (store) => store.AuthReducer.userDetails.email
      );
+     const isAuth=useSelector((store) => store.AuthReducer.isAuth)
      const name = useSelector((store) => store.AuthReducer.userDetails.name);
      const { isOpen, onOpen, onClose } = useDisclosure();
      const firstField = React.useRef();
@@ -59,14 +60,14 @@ function BurgerMenu() {
                     <DrawerContent>
                          <DrawerCloseButton />
                          <DrawerHeader borderBottomWidth="1px">
-                              {name && name?name:"User Account"}
+                              {isAuth && name?name:"User Account"}
                          </DrawerHeader>
 
                          <DrawerBody>
                               <Stack spacing="24px">
                                    <Box>
                                         <FormLabel htmlFor="username">
-                                             {emaillocal}
+                                             {isAuth && emaillocal}
                                         </FormLabel>
                                    </Box>
 

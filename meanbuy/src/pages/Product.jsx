@@ -25,11 +25,13 @@ import {
   TabPanel,
   UnorderedList,
   ListItem,
+  Spinner,
 } from "@chakra-ui/react";
 import { SliderSlick } from "../components/SliderSlick";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useDispatch, useSelector } from "react-redux"
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaSnapchat } from "react-icons/fa";
 import { BiRupee } from "react-icons/bi";
@@ -42,17 +44,20 @@ export const Product = () => {
   const location = useLocation();
   // const dispatch = useDispatch();
   const [prodData, setProdData] = useState({});
+  const  [isLoading,setIsLoading]=useState(false);
 
   const { pathname } = location;
 
   const { id } = useParams();
+  console.log("pathname",pathname)
 
   const getData = () => {
+    setIsLoading(true);
     axios
-      .get(`http://localhost:8080${pathname}`)
+      .get(`https://happykart.onrender.com${pathname}`)
       .then((res) => {
         setProdData(res.data);
-        // console.log(prodData);
+       setIsLoading(false);
       })
       .catch((e) => {
         console.log("Error: ", e);
@@ -66,6 +71,9 @@ export const Product = () => {
   const handleAddCart = () => {
     saveCartData("user_cart_items", prodData);
   };
+  if(isLoading==true){ 
+    return   <Spinner color='red.500' mb="800px"  mt="200px" ml="50%" />
+   }
 
   return (
     <Container maxW="container.xl" mb="80px" mt="150px">

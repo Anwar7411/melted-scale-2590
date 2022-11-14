@@ -2,7 +2,7 @@ import { StarIcon } from '@chakra-ui/icons';
 import {Image, Box, Grid, GridItem, Heading } from '@chakra-ui/react';
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { useLocation, useSearchParams } from 'react-router-dom';
+import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import { getwatch } from '../redux/appreducer/action';
 import "./Navbar.css"
 
@@ -35,7 +35,7 @@ const Watches = () => {
     <Grid className='data' templateColumns='repeat(4, 1fr)' gap={6}>
       {Watchdata.length>0 ? Watchdata.map((el)=>{
         return(
-          <div key={el.id}  >
+       <Link to={`/Watches/${el.id}`}><div key={el.id}  >
             <div><img src={el.image} alt="img"/></div>
             <Heading size="xs" color={"#455A64"}>{el.title}</Heading>
             <div style={{marginLeft:"70%",backgroundColor:"#3cc101",width:"20%",borderRadius:"50px",color:"white" }}>{el.rating}/5<StarIcon ml="5px" viewBox="0 2 24 24" /></div>
@@ -47,7 +47,7 @@ const Watches = () => {
             </Grid>
             
 
-          </div>
+          </div></Link> 
 
         )
       }):<Heading mt="10%"  ml="50%" textAlign={"center"} size="lg" color={"red"}>Not Found</Heading>}

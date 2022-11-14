@@ -52,7 +52,7 @@ export const Electronics = () => {
     }
   }, [location.search]);
 
-  if (isLoading === true) {
+  if (isLoading) {
     return <Spinner color="red.500" mb="800px" mt="200px" ml="50%" />;
   }
 

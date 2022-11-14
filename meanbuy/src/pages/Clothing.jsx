@@ -84,8 +84,6 @@ const Clothing = () => {
     sortBy && (params.sortBy = sortBy);
     setSearchParam(params)
   }, [color, type, gender,sortBy])
-
-  console.log("isLoading",isLoading);
   
   if(isLoading==true){ 
    return   <Spinner color='red.500' mb="800px"  mt="200px" ml="50%" />

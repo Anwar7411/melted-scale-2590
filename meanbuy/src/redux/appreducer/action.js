@@ -10,7 +10,7 @@ const getClothRequest = () => {
 
 const getCloths = (quaryParam) => (dispatch) => {
   dispatch(getClothRequest());
-  return axios("http://localhost:8080/products", quaryParam)
+  return axios("https://happykart.onrender.com/products", quaryParam)
     .then((res) => {
       dispatch({
         type: types.GET_CLOTH_SUCCESS,
@@ -35,10 +35,9 @@ const getElectronicsProductFailure = () => {
 };
 
 export const getElectronicsProduct = (queryParams) => (dispatch) => {
-  //   console.log("Inside electronics middleware");
   dispatch(getElectronicsProductRequest());
   axios
-    .get("http://localhost:8080/electronics", queryParams)
+    .get("https://happykart.onrender.com/electronics", queryParams)
     .then((res) => {
       dispatch({
         type: types.GET_ELECTRONICS_PRODUCT_SUCCESS,
@@ -55,7 +54,7 @@ const getwatch=(queryParams)=>(dispatch)=>{
     
     
     return axios    
-    .get("http://localhost:8080/Watches",queryParams)
+    .get("https://happykart.onrender.com/Watches",queryParams)
     .then((r)=>{
         dispatch({
             type:types.GET_Watch_SUCCESS,
